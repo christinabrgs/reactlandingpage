@@ -7,7 +7,7 @@ import './navbar.css'
 function Navbar() {
 
     const [click, setclick] = useState(false)
-    const [button, setbutton] = useState(true)
+    const [button, setButton] = useState(true)
 
     const handleClick = () => setclick(!click)
 
@@ -15,9 +15,9 @@ function Navbar() {
 
     const ShowButton = () => {
         if (window.innerWidth <= 960) {
-            setbutton(false)
+            setButton(false)
         } else {
-            setbutton(true)
+            setButton(true)
         }
     }
 
@@ -51,8 +51,8 @@ function Navbar() {
                             </Link>
                         </li>
                         <li className='nav-item'>
-                            <Link to='/sign-up' className='nav-links' onClick={closeMobileMenu}>
-                                Sign-Up
+                            <Link to='/sign-up' className='nav-links-mobile' onClick={closeMobileMenu}>
+                                Sign Up
                             </Link>
                         </li>
                     </ul>
