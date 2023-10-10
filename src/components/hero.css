@@ -6,13 +6,46 @@ video {
     z-index: -1;
 }
 
-/* .hero-container {
-    background: url('../../public/images/img-home.jpg') center center/cover no-repeat;
+.hero-heading {
+    color: #fff;
+    opacity: 1;
+    padding: 20px;
+    width: 100%;
+    height: 160px;
+    text-align: center;
+    margin: 10% auto;
+}
+
+Button {
+    margin-right: 10px;
+}
+
+.hero-container {
+    /* background: url('../../public/images/img-home.jpg') center center/cover no-repeat; */
     height: 100vh;
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
     object-fit: contain;
-} */
+}
+
+.hero-heading > h1 {
+    font-size: 4rem
+}
+
+@media screen and (max-width: 960px) {
+    .hero-heading > h1 {
+        font-size: 3rem;
+
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .hero-heading > h1 {
+        font-size: 2rem;
+        
+    }
+}
