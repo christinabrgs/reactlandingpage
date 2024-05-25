@@ -7,10 +7,14 @@ import './hero.css'
 function HeroSection() {
     return (
         <div className="hero-container">
-            <video src='/videos/video-2.mp4' autoPlay loop muted />
+            {/* <video src='/videos/video-2.mp4' autoPlay loop muted /> */}
             <div className="hero-heading">
-                <h1 className="">ADVENTURE AWAITS</h1>
-                <p>What are you waiting for?</p>
+                <div className="hero_one">
+                <img className='hero_img' src='Frame3.png' alt='Travel Image' />
+                </div>
+                <div className="hero_two">
+                <h1 className="">CTB SOLUTIONS & CONSULTANCY</h1>
+                <p>As a dedicated software developer, I am passionate about utilizing technology to improve the lives of others. I am committed to leveraging my experience in both IT and UX to excel in what I do.</p>
                 <br></br>
                 <div className="hero-btns">
                     <Button 
@@ -25,6 +29,7 @@ function HeroSection() {
                         buttonSize='btn--large'>
                         WATCH TRAILER <i className="far fa-play-circle" />
                     </Button>
+                    </div>
                 </div>
             </div>
         </div>

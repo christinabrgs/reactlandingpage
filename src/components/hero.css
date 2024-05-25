@@ -1,3 +1,8 @@
+
+* {
+    box-sizing: border-box;
+}
+
 video {
     object-fit: cover;
     width: 100%;
@@ -7,13 +12,13 @@ video {
 }
 
 .hero-heading {
-    color: #fff;
+    /* border: 40px solid #041b3f; */
     opacity: 1;
-    padding: 20px;
     width: 100%;
-    height: 160px;
-    text-align: center;
-    margin: 10% auto;
+    height: 400px;
+    flex: 1;
+    display: flex;
+
 }
 
 Button {
@@ -21,19 +26,45 @@ Button {
 }
 
 .hero-container {
-    /* background: url('../../public/images/img-home.jpg') center center/cover no-repeat; */
-    height: 100vh;
+    background: #ffb07a center center/cover no-repeat;
+    height: 80vh;
     width: 100%;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+    flex: 1;
+    /* align-items: center; */
+    padding-top: 70px;
+    /* justify-content: center; */
+    /* box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2); */
     object-fit: contain;
 }
 
+.hero_one {
+    flex: 1;
+    text-align: right;
+    box-sizing: border-box;
+    padding: 100px 0 100px 150px 100px;
+    
+  }
+
+.hero_two {
+    flex: 1.5;
+    justify-content: left;
+    padding-left: 50px;
+}
+
+  .hero_img {
+    height: 250px;
+    width: 40%;
+  }
+
+p {
+    width: 58%;
+    color: #051c3f;
+}
+
 .hero-heading > h1 {
-    font-size: 4rem
+    font-size: 4rem;
+    color: #051c3f;
 }
 
 @media screen and (max-width: 960px) {

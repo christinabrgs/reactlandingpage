@@ -1,48 +1,98 @@
 .cards {
   padding: 4rem;
-  background: #fff;
+  background: #feaf7a;
   opacity: 1;
 }
 
-h1 {
-  text-align: center;
-}
+
 
 .cards__container {
   display: flex;
   flex-flow: column;
   flex: 1;
-  align-items: center;
   max-width: 1120px;
-  width: 90%;
+  width: 87%;
   margin: 0 auto;
 }
 
 .cards__wrapper {
   position: relative;
-  margin: 50px 0 45px;
+  margin: 0 0 45px;
   display: flex;
+  flex-direction: column;
 }
 
 .cards__items {
   margin-bottom: 24px;
+  font-size: 20rem;
   flex: 1;
+  width: 100%;
 }
+
+/*  */
+
+
+.cards__item {
+  border-radius: 3rem;
+  overflow: hidden;
+  position: relative;
+  transition: 0.2s transform ease-in-out;
+  will-change: transform;
+  z-index: 0;
+}
+
+.cards__item::after {
+  background-color: white; /* Missing colon */
+  content: ''; /* Missing colon */
+  display: block; /* Missing colon */
+  height: 100%; /* Missing colon */
+  width: 100%; /* Missing colon */
+  position: absolute;
+  left: 0; /* Missing colon */
+  top: 0; /* Missing colon */
+  transform: translate(-100%, 0) rotate(10deg); /* Missing colon */
+  transform-origin: top left; /* Missing colon */
+  transition: 0.2s transform ease-out;
+  will-change: transform;
+  z-index: -1; /* Missing colon */
+}
+
+.cards__item:hover::after {
+  transform: translate(0, 0); /* Missing colon */
+}
+
+.cards__item:hover {
+  /* border: 2px solid transparent; Missing colon */
+  color: indigo; /* Missing colon */
+  transform: scale(1.05); /* Missing colon */
+  will-change: transform;
+}
+
+.cards__item__text:hover {
+  color: #051b3f;
+}
+
+
+
+
+/*  */
 
 .cards__item {
   flex: 1;
+  background-color: #051b3f;
+  color: #feaf7a;
   margin: 01rem;
-  border-radius: 10px;
+  height: 200px;
+  border-radius: 0px;
   list-style: none;
 }
 
 .cards__item__link {
+  color: #feaf7a;
   display: flex;
   flex-flow: column;
+  height: 100%;
   width: 100%;
-  box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
-  -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
-  filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
   border-radius: 10px;
   overflow: hidden;
   text-decoration: none;
@@ -81,27 +131,32 @@ h1 {
   bottom: 0;
   left: 0;
   display: block;
-  width: 100%;
+  width: 20%;
+  height: 400px;
   max-width: 100%;
-  height: 100%;
   max-height: 100%;
-  object-fit: cover;
+  object-fit:fill;
   transition: all 0.2s linear;
 }
+
+
 
 .cards__item__img:hover {
   transform: scale(1.1);
 }
 
 .cards__item__info {
-  padding: 20px 30px 30px;
-  height: 100px;
+  padding: 90px 30px 30px;
+  height: 100%;
 }
 
 .cards__item__text {
-  color: #252e48;
-  font-size: 18px;
-  line-height: 24px;
+  text-align: center;
+  height: 100%;
+  font-weight: 300;
+  font-size: 80px;
+  font-family: arial;
+  line-height: 15px;
 }
 
 @media screen and (max-width: 960px) {
