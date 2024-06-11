@@ -11,21 +11,21 @@ function Cards() {
                         <CardItem
                             text='PORTFOLIO'
                             label='Adventure'
-                            path='services' />
+                            path='work' />
                     </div>
                     <div className='cards__items'>
                         <CardItem
                             src="images/img-2.jpg"
                             text='RESUME'
                             label='Luxery'
-                            path='/services' />
+                            path='resume' />
                     </div>
                     <div className='cards__items'>
                         <CardItem
                             src="images/img-8.jpg"
                             text='WORK WITH ME'
                             label='Adventure'
-                            path='/services' />
+                            path='contact' />
                     </div>
                 </div>
             </div>

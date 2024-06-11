@@ -14,11 +14,10 @@ video {
 .hero-heading {
     /* border: 40px solid #041b3f; */
     opacity: 1;
-    width: 100%;
+    width: 50%;
+    justify-content: center;
+    text-align: center;
     height: 400px;
-    flex: 1;
-    display: flex;
-
 }
 
 Button {
@@ -26,14 +25,12 @@ Button {
 }
 
 .hero-container {
-    background: #ffb07a center center/cover no-repeat;
+    background: #041b3f center center/cover no-repeat;
     height: 80vh;
     width: 100%;
     display: flex;
-    flex: 1;
-    /* align-items: center; */
-    padding-top: 70px;
-    /* justify-content: center; */
+    align-items: center;
+    justify-content: center;
     /* box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2); */
     object-fit: contain;
 }
@@ -48,28 +45,35 @@ Button {
 
 .hero_two {
     flex: 1.5;
-    justify-content: left;
-    padding-left: 50px;
+    text-align: center;
+    justify-content: center;
+    /* padding-left: 50px; */
 }
 
   .hero_img {
-    height: 250px;
-    width: 40%;
+    height: 90%;
+    width: 50%;
   }
 
 p {
-    width: 58%;
-    color: #051c3f;
+    width:100%;
+    font-size: 1.6em;
+    color: #fff;
+    line-height: 150%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-.hero-heading > h1 {
-    font-size: 4rem;
-    color: #051c3f;
+.hero-heading .heading {
+    font-size: 6rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #ffb07a;
+    line-height: 180%;
+    font-weight: 300;
 }
 
-@media screen and (max-width: 960px) {
+/* @media screen and (max-width: 960px) {
     .hero-heading > h1 {
-        font-size: 3rem;
+        font-size: 8rem;
 
     }
 }
@@ -79,4 +83,4 @@ p {
         font-size: 2rem;
         
     }
-}
+} */

@@ -6,40 +6,15 @@ import { Link } from 'react-router-dom'
 function Footer() {
     return (
         <div className='footer-container'>
-  
-            <section class='social-media'>
                 <div class='social-media-wrap'>
-                    <div class='footer-logo'>
-                        <Link to='/' className='social-logo'>
-                            TRVL
-                            <i class='fab fa-typo3' />
-                        </Link>
-                    </div>
-                    <small class='website-rights'>TRVL © 2020</small>
                     <div class='social-icons'>
-                        <Link
+                    <Link
                             class='social-icon-link facebook'
                             to='/'
                             target='_blank'
                             aria-label='Facebook'
                         >
-                            <i class='fab fa-facebook-f' />
-                        </Link>
-                        <Link
-                            class='social-icon-link instagram'
-                            to='/'
-                            target='_blank'
-                            aria-label='Instagram'
-                        >
-                            <i class='fab fa-instagram' />
-                        </Link>
-                        <Link
-                            class='social-icon-link youtube'
-                            to='/'
-                            target='_blank'
-                            aria-label='Youtube'
-                        >
-                            <i class='fab fa-youtube' />
+                            <i class='fa-solid fa-calendar-days' />
                         </Link>
                         <Link
                             class='social-icon-link twitter'
@@ -47,7 +22,7 @@ function Footer() {
                             target='_blank'
                             aria-label='Twitter'
                         >
-                            <i class='fab fa-twitter' />
+                            <i class='fab fa-github' />
                         </Link>
                         <Link
                             class='social-icon-link twitter'
@@ -58,8 +33,11 @@ function Footer() {
                             <i class='fab fa-linkedin' />
                         </Link>
                     </div>
+                    <div class='social-icons'>
+                    <small class='website-rights'>All rights reserved @2023 Cbtalia. </small>
+                        
+                    </div>
                 </div>
-            </section>
         </div>
     )
 }
