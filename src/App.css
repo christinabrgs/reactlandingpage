@@ -5,40 +5,42 @@
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+
 .home,
 .services,
 .resume,
 .sign-up {
   display: flex;
-  height: 90vh;
+  height: 91.7vh;
   align-items: center;
   justify-content: center;
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: 300;
 }
 
-.services {
+/* .services {
   background-image: url('/public/images/img-2.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
   font-size: 100px;
-}
+} */
+
 .head-hr {
   color: #fff;
   width: 50%;
   margin: 10px;
 }
 
-.resume {
+.resume, .services {
   /* background-image: url('/public/images/img-1.jpg'); */
   background-position: center;
   background-size: fill;
   background-repeat: no-repeat;
   background-color: #041b3f;
   color: #ffb07a;
-  font-size: 6em;
+  font-size: 6rem;
   flex-direction: column;
   
 }
@@ -46,19 +48,28 @@
 .intro {
   text-align: center;
   color: #041b3f;
-  width: 70%;
-  margin: auto;
+  width: 80%;
+  margin: 80px auto;
+  padding: 80px 80px 80px 80px;
+  background-color: white;
 }
 
 h1,
 h2,
 h3,
 h4 {
-  padding: 20px;
+  padding: 15px 0 15px 0  ;
+
 }
+
 .intro p {
   color: #041b3f;
   padding: 30px;
+}
+
+li {
+  padding: 0px;
+  margin: 0;
 }
 
 .sign-up {

@@ -11,7 +11,7 @@ function Cards() {
                         <CardItem
                             text='PORTFOLIO'
                             label='Adventure'
-                            path='work' />
+                            path='portfolio' />
                     </div>
                     <div className='cards__items'>
                         <CardItem
@@ -23,7 +23,7 @@ function Cards() {
                     <div className='cards__items'>
                         <CardItem
                             src="images/img-8.jpg"
-                            text='WORK WITH ME'
+                            text='CONTACT'
                             label='Adventure'
                             path='contact' />
                     </div>

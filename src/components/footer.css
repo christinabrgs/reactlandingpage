@@ -95,7 +95,7 @@
 
 /* Social Icons */
 .social-icon-link {
-  color: #fff;
+  color: #051c3f;
   font-size: 24px;
 }
 
@@ -109,7 +109,7 @@
   justify-content: space-between;
   align-items: center;
   width: 90%;
-  max-width: 1000px;
+  max-width: 80%;
   margin: 40px auto 0 auto;
 }
 
@@ -121,7 +121,7 @@
 }
 
 .social-logo {
-  color: #fff;
+  color: #051c3f;
   justify-self: start;
   margin-left: 20px;
   cursor: pointer;
@@ -133,7 +133,7 @@
 }
 
 .website-rights {
-  color: #fff;
+  color: #051c3f;
   margin-bottom: 16px;
 }
 
@@ -156,6 +156,15 @@
 
   .social-media-wrap {
     flex-direction: column;
+  }
+
+  .social-icons {
+    padding-bottom: 40px;
+  }
+
+  .website-rights {
+    text-align: center;
+    padding: 1rem;
   }
 }
 

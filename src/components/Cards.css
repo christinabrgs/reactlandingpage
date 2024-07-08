@@ -59,16 +59,17 @@
 
 .cards__item:hover::after {
   transform: translate(0, 0); /* Missing colon */
+  
 }
 
 .cards__item:hover {
   /* border: 2px solid transparent; Missing colon */
-  color: indigo; /* Missing colon */
+  color: rgb(168, 119, 202); /* Missing colon */
   transform: scale(1.05); /* Missing colon */
   will-change: transform;
 }
 
-.cards__item__text:hover {
+.cards__item__link:hover {
   color: #051b3f;
 }
 
@@ -162,6 +163,25 @@
 @media screen and (max-width: 960px) {
   .cards__wrapper {
     flex-direction: column;
+  }
+
+  .cards__item__text {
+    font-size: 3rem;
+  
+  }
+
+}
+
+@media screen and (max-width: 500px) {
+
+
+  .cards__item__text {
+    font-size: 1.5rem;
+  }
+
+  .cards__container {
+    max-width: 1120px;
+    width: 100%;
   }
 }
 

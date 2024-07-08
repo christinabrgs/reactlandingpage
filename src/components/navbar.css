@@ -41,7 +41,7 @@
   list-style: none;
   text-align: center;
   width: 60vw;
-  justify-content: end;
+  justify-content: center;
   margin-right: 2rem;
 }
 
@@ -93,7 +93,7 @@
   }
 
   .nav-menu.active {
-    background: #242222;
+    background: #041b3f;
     left: 0;
     opacity: 1;
     transition: all 0.5s ease;

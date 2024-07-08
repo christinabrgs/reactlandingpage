@@ -1,27 +1,36 @@
-import React from 'react'
+import { useEffect, React } from 'react'
 import Navbar from './components/navbar'
 import './App.css';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom'
 import Home from './components/pages/home';
-import Products from './components/pages/products';
-import Services from './components/pages/services';
-import SignUp from './components/pages/signup';
+import Resume from './components/pages/resume';
+import Contact from './components/pages/contact';
+import Portfolio from './components/pages/portfolio';
 
 function App() {
+  const location = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [location]);
+
   return (
     <>
-      <Router>
-        <Navbar />
-        <Routes>
-          <Route path='/' exact element={<Home />}></Route>
-          <Route path='/work' exact element={<Services />}></Route>
-          <Route path='/resume' exact element={<Products />}></Route>
-          <Route path='/contact' exact element={<SignUp />}></Route>
-
-        </Routes>
-      </Router>
+      {location.pathname !== '/' && <Navbar />}
+      <Routes>
+        <Route path='/' exact element={<Home />}></Route>
+        <Route path='/portfolio' exact element={<Portfolio />}></Route>
+        <Route path='/resume' exact element={<Resume />}></Route>
+        <Route path='/contact' exact element={<Contact />}></Route>
+      </Routes>
     </>
   );
 }
 
-export default App;
+export default function WrappedApp() {
+  return (
+    <Router>
+      <App />
+    </Router>
+  );
+}
