@@ -14,7 +14,7 @@ export function Projects() {
             <img src={Avatar} />
           </div>
           <div class="text-container">
-            <h3> Avatar React </h3>
+            <h3 style={{paddingTop: 15}} > Avatar React </h3>
             <p> design </p>
           </div>
         </div>
@@ -23,7 +23,7 @@ export function Projects() {
             <img src={Avatar} />
           </div>
           <div class="text-container">
-            <h3> Avatar React </h3>
+            <h3 style={{paddingTop: 15}}> Avatar React </h3>
             <p> design </p>
           </div>
         </div>
@@ -32,7 +32,7 @@ export function Projects() {
             <img src={Avatar} />
           </div>
           <div class="text-container">
-            <h3> Avatar React </h3>
+            <h3 style={{paddingTop: 15}}> Avatar React </h3>
             <p> design </p>
           </div>
         </div>
@@ -46,7 +46,7 @@ export function Projects() {
             <img src={Avatar} />
           </div>
           <div class="text-container">
-            <h3> Avatar React </h3>
+            <h3 style={{paddingTop: 15}}> Avatar React </h3>
             <p> design </p>
           </div>
         </div>
@@ -56,7 +56,7 @@ export function Projects() {
             <img src={Avatar} />
           </div>
           <div class="text-container">
-            <h3> Avatar React </h3>
+            <h3 style={{paddingTop: 15}}> Avatar React</h3>
             <p> design </p>
           </div>
         </div>
@@ -66,7 +66,7 @@ export function Projects() {
             <img src={Avatar} />
           </div>
           <div class="text-container">
-            <h3> Avatar React </h3>
+            <h3 style={{paddingTop: 15}}> Avatar React </h3>
             <p> design </p>
           </div>
         </div>
@@ -81,7 +81,7 @@ export function Projects() {
             <img src={Avatar} />
           </div>
           <div class="text-container">
-            <h3> Avatar React </h3>
+            <h3 style={{paddingTop: 15}}> Avatar React </h3>
             <p> design </p>
           </div>
         </div>
@@ -91,7 +91,7 @@ export function Projects() {
             <img src={Avatar} />
           </div>
           <div class="text-container">
-            <h3> Avatar React </h3>
+            <h3 style={{paddingTop: 15}}> Avatar React </h3>
             <p> design </p>
           </div>
         </div>
@@ -101,7 +101,7 @@ export function Projects() {
             <img src={Avatar} />
           </div>
           <div class="text-container">
-            <h1> Avatar React </h1>
+            <h3 style={{paddingTop: 15}}> Avatar React </h3>
             <p> design </p>
           </div>
         </div>
