@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import { Styled } from 'styled-components'
 import { Button } from './button'
 import './navbar.css'
+import Logo from '../images/Frame8.png'
 
 function Navbar() {
 
@@ -27,18 +28,48 @@ function Navbar() {
 
     window.addEventListener('resize', ShowButton)
 
+
+    const [scrolled, setScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const offset = window.scrollY;
+      if (offset > 50) {
+        setScrolled(true);
+      } else {
+        setScrolled(false);
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
+
+  let navbarClasses = ['navbar'];
+  if (scrolled) {
+    navbarClasses.push('scrolled');
+  }
+
+
+
     return (
         <>
-            <nav className="navbar">
+            <nav className={navbarClasses.join(' ')}>
                 <div className='navbar-container'>
                     <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-                        CBTALIA 
+                    <img style={{width: 289, height: 86, marginTop: 20}} src={Logo} />
                         {/* <i style={{ display: 'inline' }} className='fab fa-typo3' onClick={closeMobileMenu}></i> */}
                     </Link>
 
                     <div className='menu-icon' onClick={handleClick}>
                         <i className={click ? 'fas fa-times' : 'fas fa-bars'}> </i>
                     </div>
+
+                    <div className="links-container">
                     <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                         <li className='nav-item'>
                             <Link to='/' className='nav-links' onClick={closeMobileMenu}>
@@ -62,6 +93,7 @@ function Navbar() {
                         </li>
                     </ul>
                     {button && <Button buttonStyle='btn--outline'>Contact</Button>}
+                    </div>
                 </div>
             </nav>
         </>

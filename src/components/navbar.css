@@ -1,27 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Urbanist:wght@400;600&display=swap');
+
+body {
+  font-family: 'Comfortaa';
+}
+
 .navbar {
-  background: #041b3f;
-  height: 80px;
+  background: transparent;
+  height: 120px;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 1.2rem;
-  position: sticky;
+  font-size: 1.5rem;
+  position: fixed;
+  z-index: 1000; 
+  width: 100%;
   top: 0;
   z-index: 999;
+  transition: background-color 0.3s ease;
+}
+
+.navbar.scrolled {
+  background-color: #041a3f; /* Change to your desired color */
 }
 
 .navbar-container {
   display: flex;
-  justify-content: center;
+  justify-content:space-between;
   align-items: center;
-  height: 80px;
-  max-width: 1500px;
+  height: 90px;
+  max-width: 90%;
 }
 
 .navbar-logo {
   color: #fff;
   justify-self: start;
-  margin-left: 20px;
   cursor: pointer;
   text-decoration: none;
   font-size: 2rem;
@@ -34,19 +46,26 @@
   font-size: 1.8rem;
 }
 
+.links-container {
+  display: flex;
+  align-items: center;
+  margin-right: 3rem;
+
+}
+
 .nav-menu {
   display: grid;
+  font-family: "Comfortaa", sans-serif;
   grid-template-columns: repeat(4, auto);
   grid-gap: 10px;
   list-style: none;
   text-align: center;
   width: 60vw;
-  justify-content: center;
-  margin-right: 2rem;
+  justify-content: right;
 }
 
 .nav-item {
-  height: 80px;
+  height: 90px;
 }
 
 .nav-links {

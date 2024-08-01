@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Urbanist:wght@400;600&display=swap');
+
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: 'Comfortaa';
 }
 
 
@@ -11,7 +14,7 @@
 .resume,
 .sign-up {
   display: flex;
-  height: 91.7vh;
+  height: 100vh;
   align-items: center;
   justify-content: center;
   font-size: 2rem;
@@ -49,9 +52,13 @@
   text-align: center;
   color: #041b3f;
   width: 80%;
-  margin: 80px auto;
+  margin: 0px auto;
   padding: 80px 80px 80px 80px;
   background-color: white;
+}
+
+body {
+  background-color: transparent;
 }
 
 h1,

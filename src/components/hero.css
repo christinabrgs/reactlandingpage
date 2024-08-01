@@ -12,10 +12,12 @@ video {
 }
 
 .hero-heading {
-    /* border: 40px solid #041b3f; */
+    display: flex;
+    margin-top: 130px;
     opacity: 1;
-    width: 85%;
+    width: 70%;
     justify-content: center;
+    align-items: center;
     contain: content;
     text-align: center;
 }
@@ -25,10 +27,9 @@ Button {
 }
 
 .hero-container {
-    background: #041b3f center center/cover no-repeat;
+    background-image: linear-gradient(to right, #041b3f 0%, #041b3f 33%, white 33%, white 33.5%, #3e5780 33.5%, #3e5780 100%); 
     animation: fadeBackground 6s;
-    animation-fill-mode: forwards;
-    
+    animation-fill-mode: forwards;   
     height: 100vh;
     width: 100%;
     display: flex;
@@ -67,8 +68,8 @@ Button {
 }
 
   .hero_img {
-    height: 30rem;
-    width: 30rem;
+    height: 39rem;
+    width: 23rem;
   }
 
 p {
@@ -83,6 +84,7 @@ p {
     font-size: 6rem;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: #ffb07a;
+    background-color: #3e5780;
     line-height: 180%;
     font-weight: 300;
 }
