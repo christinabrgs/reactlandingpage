@@ -72,6 +72,11 @@
   }
 
 
+  @media screen and (max-width: 1205px) {
+    .about-picture {
+        display: none;
+    }
+  }
 
   @media screen and (max-width: 790px) {
     .about-section {

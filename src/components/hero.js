@@ -28,7 +28,7 @@ function HeroSection() {
                         </div>
                     </div> */}
                     <div className="two_content">
-                        <h2 style={{ fontSize: 32, color: '#ffaf7a' }}>Hello, I'm Christina</h2>
+                        <h2 style={{  color: '#ffaf7a' }}>Hello, I'm Christina</h2>
                         <h1 style={{ lineHeight: 1.2, color: 'white' }}> I'm a UI Designer and Developer</h1>
                         <div className="hero-btns">
                             <Button

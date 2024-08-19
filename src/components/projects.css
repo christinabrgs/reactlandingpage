@@ -68,9 +68,13 @@ img {
 
 
 
-  @media screen and (max-width: 1250px) {
+  @media screen and (max-width: 1205px) {
     .portfolio-container {
         flex-direction: column;
+    }
+
+    .projects_headline h1 {
+      width: 70%;
     }
     
   }
