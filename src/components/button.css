@@ -16,11 +16,21 @@
     border: 1px solid var(--primary);
   }
   
+  .btn---outline {
+    background-color: transparent;
+    color: #ffaf7a;
+    padding: 8px 20px;
+    border: 1px solid #ffaf7a;
+    border-radius: 10px;
+    transition: all 0.3s ease-out;
+  }
+  
   .btn--outline {
     background-color: transparent;
-    color: #fff;
+    color: white;
     padding: 8px 20px;
     border: 1px solid var(--primary);
+    border-radius: 10px;
     transition: all 0.3s ease-out;
   }
   

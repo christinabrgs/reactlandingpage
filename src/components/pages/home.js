@@ -1,14 +1,18 @@
 import React from "react";
 import '../../App.css'
 import HeroSection from "../hero";
-import Cards from "../Cards";
+import Services from "../services";
 import Footer from "../footer";
+import AboutMe from "../aboutMe"
+import CaseStudies from "../caseStudies";
 
 function Home() {
     return (
         <>
             <HeroSection />
-            <Cards />
+            <AboutMe />
+            <Services />
+            <CaseStudies />
             <Footer />
         </>
     )

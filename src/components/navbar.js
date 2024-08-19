@@ -61,7 +61,7 @@ function Navbar() {
             <nav className={navbarClasses.join(' ')}>
                 <div className='navbar-container'>
                     <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-                    <img style={{width: 289, height: 86, marginTop: 20}} src={Logo} />
+                    <img className='logo' src={Logo} />
                         {/* <i style={{ display: 'inline' }} className='fab fa-typo3' onClick={closeMobileMenu}></i> */}
                     </Link>
 
@@ -92,7 +92,7 @@ function Navbar() {
                             </Link>
                         </li>
                     </ul>
-                    {button && <Button buttonStyle='btn--outline'>Contact</Button>}
+                    {button && <Button className='nav-links' buttonStyle='btn--outline'>Contact</Button>}
                     </div>
                 </div>
             </nav>

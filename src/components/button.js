@@ -3,7 +3,7 @@ import './button.css'
 import { Link } from 'react-router-dom'
 // import { styled } from "styled-components";
 
-const styles = ['btn--primary', 'btn--outline']
+const styles = ['btn--primary', 'btn--outline', 'btn---outline']
 
 const sizes = ['btn--medium', 'btn--large']
 
