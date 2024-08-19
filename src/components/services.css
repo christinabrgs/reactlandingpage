@@ -243,6 +243,11 @@
     .cards__container {
       width: 50%;
     }
+
+    .cards_item {
+      background-color: #fee7d5;
+    }
+
     }
 
   
@@ -262,6 +267,22 @@
   @media only screen and (max-width: 1024px) {
     .cards__item {
       margin-bottom: 2rem;
+    }
+
+    .cards_headline h1 {
+      width: 100%;
+    }
+
+    .projects_headline {
+      margin-top: 100px;
+    }
+
+    .cards__item__info {
+      padding: 70px 30px 70px 30px;
+    }
+
+    .about-me h1 {
+      padding: 10px 0px 15px 0;
     }
   }
 
