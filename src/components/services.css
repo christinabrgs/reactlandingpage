@@ -292,7 +292,7 @@
       font-size: 3rem;
     }
 
-    .cards__items {
+    .cards__item__link {
       background-color: #fee7d5;
     }
   
@@ -313,11 +313,15 @@
       width: 100%;
     }
 
-    .cards__items {
+    .cards__item__link {
       background-color: #fee7d5;
     }
 
-    .cards__item__description {
-      padding: 30px 10px;
+    .cards__item__desc {
+      padding: 20px 10px;
+    }
+
+    .cards {
+      padding: 1.5rem;
     }
   }
