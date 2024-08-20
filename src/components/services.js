@@ -16,7 +16,7 @@ function Cards() {
                             src={Pen}
                             text='UI DESIGN'
                             label='Adventure'
-                            path='portfolio' 
+                            // path='' 
                             info='clean designs, tailored to the user, backed by research to understand your key audience'
                             />
                     </div>
@@ -26,7 +26,7 @@ function Cards() {
                             src={Code}
                             text='DEVELOPMENT'
                             label='Luxery'
-                            path='resume'
+                            // path=''
                             info='full-stack developer who has experience creating both web and mobile applications'
                              />
                     </div>
@@ -35,7 +35,7 @@ function Cards() {
                             src={Logo}
                             text='BRANDING'
                             label='Adventure'
-                            path='contact' 
+                            // path='' 
                             info='your brand is the first thing people see, dedicated to making sure it leaves a lasting first impression'
                             />
                     </div>

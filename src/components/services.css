@@ -275,7 +275,7 @@
     }
 
     .cards__item__info {
-      padding: 70px 30px 70px 30px;
+      padding: 60px 0px 60px 0px;
     }
 
     .about-me h1 {
@@ -315,5 +315,9 @@
 
     .cards__items {
       background-color: #fee7d5;
+    }
+
+    .cards__item__description {
+      padding: 30px 10px;
     }
   }
