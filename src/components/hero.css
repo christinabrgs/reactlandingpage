@@ -203,6 +203,10 @@ p {
   .hero-heading h1 {
     font-size: 1.8rem;
   }
+
+  .hero-heading {
+    margin-top: 150px;
+  }
 }
 
 @media screen and (min-device-width: 1205px) and (max-width: 1560px) {
