@@ -57,9 +57,13 @@
   text-align: center;
   color: #041b3f;
   width: 80%;
-  margin: 0px auto;
+  margin: 100px auto;
   padding: 80px 80px 80px 80px;
   background-color: white;
+  border: 3px solid #f77040;
+  box-shadow: 7px 7px 0px -1px #f77040;
+  -webkit-box-shadow: 7px 7px 0px -1px #f77040;
+  -moz-box-shadow: 7px 7px 0px -1px #f77040;
 }
 
 body {

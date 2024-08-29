@@ -64,6 +64,7 @@ Button {
 .hero_two {
   flex: 1.5;
   padding: 0 0px;
+  padding-bottom: 20px;
   text-align: left;
   justify-content: center;
   /* padding-left: 50px; */
@@ -76,8 +77,8 @@ Button {
 }
 
 .hero_img {
-  height: 600px;
-  width: 70%;
+  height: 75%;
+  width: 75%;
   border: 8px solid white;
 }
 
@@ -141,11 +142,26 @@ p {
 
 
 
+@media screen and (min-device-width: 1205px) and (max-width: 1560px) {
+  .hero_img {
+    height: 80%;
+    width: 80%;
+  }
+
+  .hero-heading .heading {
+    font-size: 4rem;
+  }
+
+  .hero-heading {
+    width: 80%;
+  }
+}
 
 @media screen and (max-width: 1205px) {
   .hero-container {
     background-color: #3e5780;
     background-image: none;
+    height: 80%;
   }
 
   @keyframes fadeBackground {
@@ -174,26 +190,57 @@ p {
 
   .hero-heading {
     flex-direction: column-reverse;
-    margin-top: 160px;
+    margin-top: 170px;
   }
 
   .hero_one {
     text-align: center;
     padding: 25px 0;
+    width: 90%;
   }
 
   .hero_img {
     width: 100%;
-    height: 23rem;
+    height: 100%;
   }
 
 
   .hero_two h2 {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
   }
 }
 
-@media screen and (max-width: 768px) {
+
+@media screen and (min-device-width: 634px) and (max-width: 768px) {
+  .hero-heading h1 {
+    font-size: 2.2rem;
+  }
+
+  .hero-container {
+    height: 100%;
+    padding-bottom: 20px;
+  }
+
+  .hero-heading {
+    margin-top: 160px;
+    width: 75%;
+  }
+
+  .hero_img {
+    height: 100%;
+    width: 100%;
+  }
+
+  .two_content {
+    padding-left: 0;
+    width: 100%; 
+    margin: auto;
+  }
+  
+}
+
+
+@media screen and (max-width: 633px) {
 
   .hero-container {
     height: 100%;
@@ -202,20 +249,24 @@ p {
 
   .hero-heading h1 {
     font-size: 1.8rem;
+    width:
   }
 
   .hero-heading {
-    margin-top: 150px;
+    margin-top: 160px;
+    width: 75%;
   }
-}
 
-@media screen and (min-device-width: 1205px) and (max-width: 1560px) {
   .hero_img {
-    height: 500px;
-    width: 80%;
+    height: 100%;
+    width: 100%;
   }
 
-  .hero-heading .heading {
-    font-size: 4rem;
+  .two_content {
+    padding-left: 0;
+    width: 100%; 
+    margin: auto;
   }
+
 }
+
