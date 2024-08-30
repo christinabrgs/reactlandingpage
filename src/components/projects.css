@@ -79,3 +79,15 @@ img {
     }
     
   }
+
+  @media screen and (max-width: 840px) {
+
+    .portfolio-container{
+      padding: 0px;
+    }
+
+    .portfolio-column{
+      padding: 0px;
+    }
+    
+  }
