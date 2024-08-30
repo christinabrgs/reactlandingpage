@@ -82,6 +82,7 @@ Button {
   border: 8px solid white;
 }
 
+
 p {
   width: 100%;
   font-size: 1.6em;
@@ -112,6 +113,10 @@ p {
 
 .drop-in-2 {
   animation: drop-in 1200ms ease 500ms backwards;
+}
+
+.drop-in-3 {
+  animation: drop-in 1500ms ease 800ms backwards;
 }
 
 @keyframes drop-in {

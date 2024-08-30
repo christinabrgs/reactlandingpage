@@ -24,7 +24,7 @@ function caseStudies () {
       return (
         <div class='projects_slider' style={{height: '100%', paddingBottom: 100}}>
           <div className="projects_headline"> <h1> CASE STUDIES </h1> </div>
-          <Slider style={{width: '90%', margin: 'auto'}} {...settings}>
+          <Slider className='u-animate-scroll-in' style={{width: '90%', margin: 'auto'}} {...settings}>
             {slides.map(slide => (
               <div key={slide.id} style={{ height: 500, width: 500}}>
                 <img style={{height: '100%', width: '100%', padding: 5}} src={slide.src} alt-text='case-study image' />

@@ -28,6 +28,26 @@
     font-weight: 400;
 } */
 
+/* Fade-in section */
+.fade-in-section {
+    opacity: 0; /* Hidden initially */
+    transform: translateY(20px); /* Slightly offset */
+    transition: opacity 1.5s ease-out, transform 1.5s ease-out; /* Animation duration */
+  }
+  
+  .fade-in-section.is-visible {
+    opacity: 1; /* Become fully visible */
+    transform: translateY(0); /* Move to its original position */
+  }
+  
+  .fade-in-content {
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px 0;
+  }
+
+
+
 
 
 @media only screen and (max-width: 1450px) { 

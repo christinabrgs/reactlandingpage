@@ -28,15 +28,21 @@ function HeroSection() {
                         </div>
                     </div> */}
                     <div className="two_content">
-                        <h2 style={{  color: '#ffaf7a' }}>Hello, I'm Christina</h2>
-                        <h1 style={{ lineHeight: 1.2, color: 'white' }}> I'm a UI Designer and Developer</h1>
-                        <div className="hero-btns">
+                        <div class="overflow-hidden">
+                            <h2 className="drop-in" style={{ color: '#ffaf7a' }}>Hello, I'm Christina</h2>
+                        </div>
+                        <div class="overflow-hidden">
+                            <h1 className="drop-in-2" style={{ lineHeight: 1.2, color: 'white' }}> I'm a UI Designer and Developer</h1>
+                        </div>
+                        <div class="overflow-hidden">
+                        <div className="hero-btns drop-in-3">
                             <Button
                                 className='btns'
                                 buttonStyle='btn---outline'
                                 buttonSize='btn--large'>
                                 Contact
                             </Button>
+                        </div>
                         </div>
                     </div>
 
