@@ -82,9 +82,9 @@ function Navbar() {
                             </Link>
                         </li>
                         <li className='nav-item'>
-                            <Link to='/resume' className='nav-links' onClick={closeMobileMenu}>
+                            <a href="/SOFTWAREDEVELOPMENT.pdf" download="Christina-Resume.pdf" className='nav-links' onClick={closeMobileMenu}>
                                 Resume
-                            </Link>
+                            </a>
                         </li>
                         <li className='nav-item'>
                             <Link to='/contact' className='nav-links-mobile' onClick={closeMobileMenu}>

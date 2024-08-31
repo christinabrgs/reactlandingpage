@@ -162,11 +162,17 @@ p {
   }
 }
 
+
+
 @media screen and (max-width: 1205px) {
   .hero-container {
     background-color: #3e5780;
     background-image: none;
     height: 80%;
+  }
+
+  .resume-link {
+    display: none;
   }
 
   @keyframes fadeBackground {

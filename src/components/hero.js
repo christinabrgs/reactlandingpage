@@ -6,6 +6,8 @@ import Logo from '../images/cbtalia.png'
 import Logo2 from '../images/Frame4.png'
 import PictureOfMe from '../images/Vector.jpg'
 
+
+
 function HeroSection() {
     return (
         <div className="hero-container">
@@ -34,15 +36,23 @@ function HeroSection() {
                         <div class="overflow-hidden">
                             <h1 className="drop-in-2" style={{ lineHeight: 1.2, color: 'white' }}> I'm a UI Designer and Developer</h1>
                         </div>
-                        <div class="overflow-hidden">
-                        <div className="hero-btns drop-in-3">
-                            <Button
-                                className='btns'
-                                buttonStyle='btn---outline'
-                                buttonSize='btn--large'>
-                                Contact
-                            </Button>
-                        </div>
+                        <div style={{marginTop: 15}} class="overflow-hidden">
+                            <div className="hero-btns drop-in-3">
+                                <Button
+                                    className='btns'
+                                    buttonStyle='btn---outline'
+                                    buttonSize='btn--large'>
+                                    Contact
+                                </Button>
+                                <a
+                                    href="/SOFTWAREDEVELOPMENT.pdf"  // Direct path to the file in the public folder
+                                    download="Christina-Resume.pdf"  // The desired name when the file is downloaded
+                                    className="resume-link btn btn--outline btn--large"
+                                    style={{ marginLeft: '10px', textDecoration: 'none' }}  // Optional styling for spacing
+                                >
+                                    Resume
+                                </a>
+                            </div>
                         </div>
                     </div>
 
