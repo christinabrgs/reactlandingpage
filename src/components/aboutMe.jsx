@@ -2,25 +2,11 @@ import React, { useEffect, useRef, useState } from "react";
 import CardItem from "./CardItem";
 import "../components/aboutMe.css";
 import Collage from "../images/collage.png";
+import useIntersectionObserver from "../hooks/useIsVisible";
 
 function AboutMe() {
-  const [isVisible, setIsVisible] = useState(false);
-  const domRef = useRef();
+  const { isVisible, domRef } = useIntersectionObserver();
 
-  useEffect(() => {
-    const observer = new IntersectionObserver((entries) => {
-      entries.forEach((entry) => {
-        if (entry.isIntersecting) {
-          setIsVisible(true);
-          observer.unobserve(domRef.current); // Stop observing after animation starts
-        }
-      });
-    });
-
-    observer.observe(domRef.current);
-
-    return () => observer.disconnect(); // Clean up
-  }, []);
 
   return (
     <div

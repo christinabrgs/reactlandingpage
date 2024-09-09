@@ -79,6 +79,7 @@ Button {
 .hero_img {
   height: 75%;
   width: 75%;
+  margin: auto;
   border: 8px solid white;
 }
 
@@ -151,6 +152,7 @@ p {
   .hero_img {
     height: 80%;
     width: 80%;
+    margin: auto;
   }
 
   .hero-heading .heading {

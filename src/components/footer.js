@@ -10,23 +10,23 @@ function Footer() {
                     <div class='social-icons'>
                     <Link
                             class='social-icon-link facebook'
-                            to='/'
+                            to='https://calendly.com/christina-brgs/'
                             target='_blank'
-                            aria-label='Facebook'
+                            aria-label='Calendar'
                         >
                             <i class='fa-solid fa-calendar-days' />
                         </Link>
                         <Link
                             class='social-icon-link twitter'
-                            to='/'
+                            to='https://github.com/christinabrgs/'
                             target='_blank'
-                            aria-label='Twitter'
+                            aria-label='Github'
                         >
                             <i class='fab fa-github' />
                         </Link>
                         <Link
                             class='social-icon-link twitter'
-                            to='/'
+                            to='https://www.linkedin.com/in/christinatburgos/'
                             target='_blank'
                             aria-label='LinkedIn'
                         >
@@ -34,7 +34,7 @@ function Footer() {
                         </Link>
                     </div>
                     <div class='social-icons'>
-                    <small class='website-rights'>All rights reserved @2023 Cbtalia. </small>
+                    <small class='website-rights'>All rights reserved @2024 Cbtalia. </small>
                         
                     </div>
                 </div>
