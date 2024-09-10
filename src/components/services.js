@@ -39,7 +39,7 @@ function Cards() {
                             text='BRANDING'
                             label='Adventure'
                             // path='' 
-                            info='your brand is the first thing people see, dedicated to making sure it leaves a lasting first impression'
+                            info='Your brand is the first thing people see, I am committed to ensuring it leaves a lasting impression'
                         />
                     </div>
                 </div>

@@ -61,7 +61,7 @@ function Navbar() {
             <nav className={navbarClasses.join(' ')}>
                 <div className='navbar-container'>
                     <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-                    <img className='logo' src={Logo} />
+                    <img className='logo' src={Logo} alt="company logo" />
                         {/* <i style={{ display: 'inline' }} className='fab fa-typo3' onClick={closeMobileMenu}></i> */}
                     </Link>
 
@@ -82,7 +82,7 @@ function Navbar() {
                             </Link>
                         </li>
                         <li className='nav-item'>
-                            <a href="/SOFTWAREDEVELOPMENT.pdf" download="Christina-Resume.pdf" className='nav-links' onClick={closeMobileMenu}>
+                            <a href="/SOFTWAREDEVELOPMENT.pdf" target="_blank" rel="noreferrer" download="Christina-Resume.pdf" className='nav-links' onClick={closeMobileMenu}>
                                 Resume
                             </a>
                         </li>

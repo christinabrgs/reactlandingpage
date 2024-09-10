@@ -48,6 +48,8 @@ function HeroSection() {
                                     href="/SOFTWAREDEVELOPMENT.pdf"  // Direct path to the file in the public folder
                                     download="Christina-Resume.pdf"  // The desired name when the file is downloaded
                                     className="resume-link btn btn--outline btn--large"
+                                    target="_blank"
+                                    rel="noreferrer"
                                     style={{ marginLeft: '10px', textDecoration: 'none' }}  // Optional styling for spacing
                                 >
                                     Resume
