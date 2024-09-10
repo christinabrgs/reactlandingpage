@@ -20,7 +20,7 @@ function Cards() {
                             text='UI DESIGN'
                             label='Adventure'
                             // path='' 
-                            info='clean designs, tailored to the user, backed by research to understand your key audience'
+                            info='Clean designs, tailored to the user, backed by research to understand your key audience'
                         />
                     </div>
                     <div className='cards__items'>
@@ -30,7 +30,7 @@ function Cards() {
                             text='DEVELOPMENT'
                             label='Luxery'
                             // path=''
-                            info='full-stack developer who has experience creating both web and mobile applications'
+                            info='Full-stack developer who has experience creating both web and mobile applications'
                         />
                     </div>
                     <div className='cards__items'>
@@ -39,7 +39,7 @@ function Cards() {
                             text='BRANDING'
                             label='Adventure'
                             // path='' 
-                            info='Your brand is the first thing people see, I am committed to ensuring it leaves a lasting impression'
+                            info='Your brand is the first thing people see. I ensure it leaves a lasting impression'
                         />
                     </div>
                 </div>
