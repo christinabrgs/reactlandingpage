@@ -18,9 +18,9 @@ function caseStudy() {
         <h2> Website . Designs </h2>
        </div>
       <div style={{margin: 'auto', width: '100%', display: 'flex', flexDirection: 'row', justifyContent: 'center', marginTop: 100, marginBottom: 100}}>
-      <img style={{width: '27%', height: '100%', margin: 50}} src={Explorepit} alt='Case Study Image' />
-      <img style={{width: '27%', height: '100%', margin: 50}} src={Explorepittwo} alt='Case Study Image' />
-      <img style={{width: '27%', height: '100%', margin: 50}} src={Explorepitthree} alt='Case Study Image' />
+      <img style={{width: '27%', height: '100%', margin: 50}} src={Explorepit} alt='Case Study' />
+      <img style={{width: '27%', height: '100%', margin: 50}} src={Explorepittwo} alt='Case Study' />
+      <img style={{width: '27%', height: '100%', margin: 50}} src={Explorepitthree} alt='Case Study' />
         </div>
       <Footer />
     </>

@@ -4,7 +4,7 @@ import "slick-carousel/slick/slick-theme.css";
 import Slider from 'react-slick'
 import Coached from '../images/coached.svg'
 import Explore from '../images/explore.svg'
-import CaseStudy from '../images/projects.svg'
+import CaseStudy from '../images/projects.png'
 import "../components/aboutMe.css";
 import useIntersectionObserver from '../hooks/useIsVisible';
 
@@ -36,12 +36,12 @@ function CaseStudies () {
     
       return (
         <div className={`fade-in-section ${isVisible ? "is-visible" : ""}`} ref={domRef}>
-        <div class='projects_slider' style={{height: '100%', paddingBottom: 100}}>
+        <div className='projects_slider' style={{height: '100%', paddingBottom: 100}}>
           <div className="projects_headline"> <h1> CASE STUDIES </h1> </div>
           <Slider style={{width: '90%', margin: 'auto'}} {...settings}>
             {slides.map(slide => (
-              <div key={slide.id} style={{ height: 500, width: 500}}>
-                <img style={{height: '100%', width: '100%', padding: 5}} src={slide.src} alt-text='case-study image' />
+              <div key={slide.id} style={{ height: 600, width: 600}}>
+                <img style={{height: '100%', width: '100%', padding: 5}} src={slide.src} alt='case-study' />
               </div>
             ))}
           </Slider>

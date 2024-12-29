@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
-import { Styled } from 'styled-components'
+// import { Styled } from 'styled-components'
 import { Button } from './button'
 import './navbar.css'
 import Logo from '../images/Frame8.png'

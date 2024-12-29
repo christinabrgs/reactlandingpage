@@ -29,10 +29,10 @@ Button {
   background-image: linear-gradient(
     to right,
     #041b3f 0%,
-    #041b3f 33%,
-    white 33%,
-    white 33.5%,
-    #3e5780 33.5%,
+    #041b3f 30%,
+    white 30%,
+    white 30.5%,
+    #3e5780 30.5%,
     #3e5780 100%
   );
   animation: fadeBackground 6s;

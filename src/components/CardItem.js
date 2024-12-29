@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+
 
 function CardItem(props) {
     return (
@@ -11,7 +11,7 @@ function CardItem(props) {
                             {props.text}
                         </h5>
                     </div>
-                    <img src={props.src} alt='logo Image' className='cards__item__img' />
+                    <img src={props.src} alt='logo' className='cards__item__img' />
                     <div className='cards__item__description'>
                         <p className='cards__item__desc'>
                             {props.info}

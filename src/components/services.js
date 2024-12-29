@@ -1,9 +1,9 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import CardItem from './CardItem'
 import '../components/services.css'
-import Pen from '../images/pen.svg'
-import Logo from '../images/log.svg'
-import Code from '../images/code.svg'
+import Pen from '../images/design.svg'
+import Logo from '../images/branding.svg'
+import Code from '../images/development.svg'
 
 function Cards() {
 
@@ -25,7 +25,7 @@ function Cards() {
                     </div>
                     <div className='cards__items'>
                         <CardItem
-                            style={{ backgroundColor: '#fee7d5' }}
+                            style={{ backgroundColor: '#99A8C1' }}
                             src={Code}
                             text='DEVELOPMENT'
                             label='Luxery'

@@ -49,7 +49,7 @@
   background-size: fill;
   background-repeat: no-repeat;
   background-color: #041b3f;
-  color: #ffb07a;
+  color: #fff;
   font-size: 6rem;
   flex-direction: column;
   
@@ -108,10 +108,11 @@ li {
 
  .contact-input {
   border: none;
-  height: 50px;
+  height: 40px;
   width: 100%;
+  color: #000;
   border-radius: 10px;
-  margin: 10px 0 50px 0;
+  margin: 5px 0 30px 0;
 }
 
 .contact-input-button {
@@ -130,10 +131,10 @@ li {
 
 .contact-form {
   padding: 0%;
-  border-radius: 20px;
-  width: 50%;
-  font-size: 25px;
-  margin-top: 100px;
+  border-radius: 0px;
+  width: 35%;
+  font-size: 18px;
+  margin-top: 120px;
 }
 
 @keyframes scroll-in {
@@ -160,7 +161,9 @@ li {
   animation-fill-mode: forwards;
 }
 
-
+.contact-header {
+  font-size: 30px;
+}
 
 
 

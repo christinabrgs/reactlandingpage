@@ -1,6 +1,6 @@
 .cards {
     padding: 4rem;
-    background: #FFE0CB;
+    background: #A4B2C9;
     opacity: 1;
   }
   
@@ -10,7 +10,7 @@
     display: flex;
     flex-flow: column;
     flex: 1;
-    background-color: #FFE0CB;
+    background-color: #A4B2C9;
     /* max-width: 1120px; */
     width: 70%;
     margin: 0 auto;
@@ -51,7 +51,8 @@
   }
   
   .cards__item::after {
-    background-color: #fcb07c; 
+    background-color: #3D5780;
+    color: white;
     content: ''; 
     display: block; 
     height: 100%; 
@@ -73,18 +74,17 @@
   
   .cards__item:hover {
     /* border: 2px solid transparent; Missing colon */
-    color: rgb(168, 119, 202); /* Missing colon */
     transform: scale(1.05); /* Missing colon */
     will-change: transform;
   }
   
   .cards__item__link:hover {
-    color: #051b3f;
+    color: #fff;
   }
 
  
   .cards_headline h1 {
-    color: #fc7030;
+    color: #fff;
     width: 40%;
     line-height: 100px;
   }
@@ -93,37 +93,36 @@
     align-items: center;
     display: flex;
     justify-content: center;
-    padding-bottom: 8%;
+    padding-bottom: 1%;
   }
   
   .projects_headline h1 {
-    color: #3D5780;
+    color: #FFB07A;
     /* border-top: #feaf7a solid 20px; */
     width: 30%;
-    line-height: 80px;
     text-align: center;
   }
   
   .projects_headline {
-     margin-top: 150px;
+     margin-top: 100px;
     align-items: center;
     display: flex;
     justify-content: center;
-    padding-bottom: 8%;
+    padding-bottom: 4%;
   }
   
   /*  */
   
   .cards__item {
     flex: 1;
-    color: #feaf7a;
+    color: #fff;
     margin: 01rem;
     border-radius: 0px;
     list-style: none;
   }
   
   .cards__item__link {
-    color: #feaf7a;
+    color: #3D5780;
     display: flex;
     flex-flow: column;
     width: 100%;
@@ -154,7 +153,7 @@
     font-size: 12px;
     font-weight: 700;
     color: #fff;
-    background-color: #1f98f4;
+    background-color: #C0CBDE;
     box-sizing: border-box;
   }
   
@@ -187,18 +186,19 @@
   .cards__item__text {
     text-align: center;
     height: 100%;
-    color: #3D5780;
-    font-weight: 300;
+    /* color: #3D5780; */
+    font-weight: 500;
     font-size: 2.1rem;
   }
 
   .cards__item__desc {
     text-align: center;
-    color: #3D5780;
+    /* color: #3D5780; */
     font-weight: 300;
-    font-size: 20px;
+    font-size: 1rem;
     font-style: none;
   }
+
 
    .projects_slider .slick-dots {
     margin-bottom: 50px;
@@ -301,7 +301,7 @@
     }
 
     .cards__item {
-      background-color: #fee7d5;
+      background-color: transparent;
     }
   
   }
@@ -322,15 +322,15 @@
     }
 
     .cards__item {
-      background-color: #fee7d5;
+      background-color: transparent;
     }
 
     .cards__item__desc {
       padding: 20px 10px;
       font-size: 1.3rem;
     }
-
+/* 
     .cards {
       padding: 1.5rem;
-    }
+    } */
   }

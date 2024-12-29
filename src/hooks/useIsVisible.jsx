@@ -8,20 +8,21 @@ const useIntersectionObserver = () => {
     entries.forEach((entry) => {
       if (entry.isIntersecting) {
         setIsVisible(true);
-        observer.unobserve(domRef.current); // Stop observing once visible
+        observer.unobserve(entry.target); // Stop observing once visible
       }
     });
   }, []);
 
   useEffect(() => {
     const observer = new IntersectionObserver(handleIntersection);
-    if (domRef.current) {
-      observer.observe(domRef.current);
+    const currentDomRef = domRef.current
+    if (currentDomRef) {
+      observer.observe(currentDomRef);
     }
 
     return () => {
-      if (observer && domRef.current) {
-        observer.unobserve(domRef.current);
+      if (observer && currentDomRef) {
+        observer.unobserve(currentDomRef);
       }
     };
   }, [handleIntersection]);

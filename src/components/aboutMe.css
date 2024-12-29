@@ -5,7 +5,7 @@
 
 .about-section {
     height: 90vh;
-    width: 50%;
+    width: 100%;
     flex: 1;
     flex-direction: column;
     display: flex;
@@ -14,13 +14,13 @@
 }
 
 .about-me {
-    width: 60%
+    width: 80%;
 }
 
 .about-picture {
     color: black;
-    height: 650px;
-    width: 700px;
+    height: auto;
+    width: 85%;
 }
 
 /* h1 {
@@ -46,14 +46,18 @@
     margin: 20px 0;
   }
 
+  .mobile-picture {
+    display: none;
+  }
+
 
 
 
 
 @media only screen and (max-width: 1450px) { 
     .about-picture {
-        width: 600px;
-        height: 550px;
+        width: 100%;
+        height: auto;
     }
 
 }
@@ -71,7 +75,7 @@
     }
 
     .about-section {
-        width: 70%;
+        width: 80%;
     }
 
 
@@ -80,6 +84,7 @@
     }
 
     .about-picture {
+        padding-top: 50px;
         height: 100%;
         width: 100%;
     }
@@ -93,15 +98,30 @@
 
 
   @media screen and (max-width: 1205px) {
-    .about-picture {
-        display: none;
-    }
-  }
 
-  @media screen and (max-width: 790px) {
+
     .about-section {
         width: 80%;
     }
+
+  }
+
+  @media screen and (max-width: 790px) {
+
+    .about-picture {
+        display: none;
+    }
+
+    .about-section {
+        width: 80%;
+    }
+
+    .mobile-picture {
+        display: block;
+        width: 80%;
+        height: auto;
+        }
+
 
   }
 

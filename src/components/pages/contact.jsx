@@ -5,12 +5,17 @@ import emailjs from '@emailjs/browser'
 function Contact () {
   const [buttonText, setButtonText] = useState("Send");
 
+  const serviceID = process.env.REACT_APP_EMAIL_JS_SERVICE_ID
+  const templateID = process.env.REACT_APP_EMAIL_JS_TEMPLATE_ID
+  const emailAPI = process.env.REACT_APP_EMAIL_JS_API_KEY
+  
+
   const form = useRef();
 
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_e9zb4ij', 'template_sfr49ca', form.current, 'V0TyvgfaL_nV9KGdZ')
+    emailjs.sendForm(`${serviceID}`, `${templateID}`, form.current, `${emailAPI}`)
       .then((result) => {
         console.log(result.text);
         // Update button text

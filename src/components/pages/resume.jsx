@@ -10,7 +10,7 @@ function Resume() {
           <h1 className="resume">RESUME</h1>
         </div>
 
-        <div class="intro" style={{ textAlign: "left" }}>
+        <div className="intro" style={{ textAlign: "left" }}>
           <h2
             style={{
               backgroundColor: "",
