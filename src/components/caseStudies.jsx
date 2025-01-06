@@ -28,8 +28,8 @@ function CaseStudies () {
       };
     
       const slides = [
-        { id: 1, src: Explore },
-        { id: 2, src: Coached },
+        { id: 1, src: Explore, href: '/casestudy/explore' },
+        { id: 2, src: Coached, href: '/casestudy/coach' },
         // { id: 3, src: CaseStudy },
       ];
     
@@ -40,7 +40,12 @@ function CaseStudies () {
           <Slider style={{width: '70%', margin: 'auto'}} {...settings}>
             {slides.map(slide => (
               <div key={slide.id} style={{ height: '100%', width: '100%'}}>
+                         <a
+                href={slide.href}
+                rel="noreferrer"
+              >
                 <img style={{height: '100%', width: '100%', padding: 2}} src={slide.src} alt='case-study' />
+                </a>
               </div>
             ))}
           </Slider>
