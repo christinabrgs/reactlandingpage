@@ -62,7 +62,7 @@
 
 }
 
-@media only screen and (max-width: 1250px) {
+@media only screen and (max-width: 1150px) {
     .about-container {
       width: 100%;
       flex-direction: column;

@@ -189,7 +189,7 @@ p {
   .resume,
   .services,
   .sign-up {
-    font-size: 3rem;
+    font-size: 4.2rem;
   }
 
   .two_content {
@@ -226,7 +226,7 @@ p {
 
 @media screen and (min-device-width: 634px) and (max-width: 768px) {
   .hero-heading h1 {
-    font-size: 2.2rem;
+    font-size: 3rem;
   }
 
   .hero-container {

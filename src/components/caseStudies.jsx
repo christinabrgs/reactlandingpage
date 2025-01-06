@@ -4,7 +4,6 @@ import "slick-carousel/slick/slick-theme.css";
 import Slider from 'react-slick'
 import Coached from '../images/coached.svg'
 import Explore from '../images/explore.svg'
-import CaseStudy from '../images/projects.png'
 import "../components/aboutMe.css";
 import useIntersectionObserver from '../hooks/useIsVisible';
 
@@ -16,7 +15,7 @@ function CaseStudies () {
         dots: true,
         infinite: true,
         speed: 500,
-        slidesToShow: 3, // Number of slides to show
+        slidesToShow: 2, // Number of slides to show
         slidesToScroll: 1, // Number of slides to scroll
         responsive: [
           {
@@ -31,17 +30,17 @@ function CaseStudies () {
       const slides = [
         { id: 1, src: Explore },
         { id: 2, src: Coached },
-        { id: 3, src: CaseStudy },
+        // { id: 3, src: CaseStudy },
       ];
     
       return (
         <div className={`fade-in-section ${isVisible ? "is-visible" : ""}`} ref={domRef}>
         <div className='projects_slider' style={{height: '100%', paddingBottom: 100}}>
           <div className="projects_headline"> <h1> CASE STUDIES </h1> </div>
-          <Slider style={{width: '90%', margin: 'auto'}} {...settings}>
+          <Slider style={{width: '70%', margin: 'auto'}} {...settings}>
             {slides.map(slide => (
-              <div key={slide.id} style={{ height: 600, width: 600}}>
-                <img style={{height: '100%', width: '100%', padding: 5}} src={slide.src} alt='case-study' />
+              <div key={slide.id} style={{ height: '100%', width: '100%'}}>
+                <img style={{height: '100%', width: '100%', padding: 2}} src={slide.src} alt='case-study' />
               </div>
             ))}
           </Slider>

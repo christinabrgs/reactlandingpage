@@ -162,22 +162,45 @@ li {
 }
 
 .contact-header {
-  font-size: 30px;
+  font-size: 2.4rem;
 }
 
 
 
 
+.case-study-orientation {
+  flex-direction: row;
+}
 
+.case-study-orientation img {
+  width: 27%;
+}
 
-
-
+.case-study-orientation.case-two img {
+  width: 45%;
+}
 
 @media screen and (max-width: 1450px) {
   .contact-header {
-    font-size: 40px;
+    font-size: 1.8rem;
+  }
+
+  .contact-form {
+    width: 60%;
   }
 }
+
+/* @media screen and (max-width: 1250px) {
+
+  .case-study-orientation {
+    flex-direction: column;
+  }
+
+  .case-study-orientation img {
+    width: 60%;
+  }
+} */
+
 
 @media screen and (max-width: 1050px) {
   
@@ -192,13 +215,34 @@ li {
   }
 
   .contact-input {
-    height: 40px;
+    height: 30px;
     margin: 5px 0 30px 0;
   }
+
+  .case-study-orientation {
+    flex-direction: column;
+  }
+
+  .case-study-orientation img {
+    width: 70%;
+  }
+
+  .case-study-orientation.case-two img {
+    width: 70%;
+  }
+
 }
 
 @media screen and (max-width: 750px) {
   .contact-header {
-    font-size: 30px;
+    font-size: 1.8rem;
+  }
+
+  .contact-input {
+    height: 20px;
+  }
+
+  .case-study-orientation img {
+    width: 80%;
   }
 }

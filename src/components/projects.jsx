@@ -1,11 +1,11 @@
 import React from "react";
 import "./projects.css";
-import Avatar from "../images/react.png";
+import Explore from "../images/pitposter.png";
 import Vnt from "../images/VNT.png";
 import Grounded from "../images/grounded.png";
 import Community from "../images/community.png";
-import WorkoutAi from "../images/workout.png";
-import CoachedMockup from "../images/coachedmockup.png" 
+import WorkoutAi from "../images/workoutapp.png";
+import CoachedMockup from "../images/coached.jpg" 
 
 export function Projects() {
   return (
@@ -19,23 +19,17 @@ export function Projects() {
             </div>
             <div className="text-container">
               <h3 style={{ paddingTop: 25 }}> Coached </h3>
-              <h4> ReactNative App with Google Firebase, UI Design </h4>
+              <h4> ReactNative Mobile App with Google Firebase, UI Design </h4>
             </div>
           </div>
 
           <div className="project">
             <div className="image-container">
-              <a
-                href="https://www.figma.com/design/G389jkPP6MbCHy0YCvUiFG/VNT?node-id=0-1"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <img src={Vnt} alt="vnt app design" />
-              </a>
+              <img src={Explore} alt='avatar' />
             </div>
             <div className="text-container">
-              <h3 style={{ paddingTop: 25 }}> VNT </h3>
-              <h4> Mobile App Design </h4>
+              <h3 style={{ paddingTop: 25 }}> Explore PIT </h3>
+              <h4> Web Development, Design, Branding </h4>
             </div>
           </div>
 
@@ -55,16 +49,41 @@ export function Projects() {
 
 
 
-        <div className="portfolio-column">
+        <div className="portfolio-column">   
         <div className="project">
             <div className="image-container">
-              <img src={Avatar} alt='avatar' />
+              <a
+                href="https://community-catalyst-z5za.onrender.com/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img src={Community} alt="community catalyst web app" />
+              </a>
             </div>
             <div className="text-container">
-              <h3 style={{ paddingTop: 25 }}> Explore PIT </h3>
-              <h4> Web Development, Design, Branding </h4>
+              <h3 style={{ paddingTop: 25 }}>Community Catalyst</h3>
+              <h4> Fullstack App - Js, Node </h4>
             </div>
           </div>
+
+
+
+        <div className="project">
+            <div className="image-container">
+              <a
+                href="https://www.figma.com/design/G389jkPP6MbCHy0YCvUiFG/VNT?node-id=0-1"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img src={Vnt} alt="vnt app design" />
+              </a>
+            </div>
+            <div className="text-container">
+              <h3 style={{ paddingTop: 25 }}> VNT </h3>
+              <h4> Mobile App Design </h4>
+            </div>
+          </div>
+
 
           <div className="project">
             <div className="image-container">
@@ -82,21 +101,6 @@ export function Projects() {
             </div>
           </div>
 
-          <div className="project">
-            <div className="image-container">
-              <a
-                href="https://community-catalyst-z5za.onrender.com/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <img src={Community} alt="community catalyst web app" />
-              </a>
-            </div>
-            <div className="text-container">
-              <h3 style={{ paddingTop: 25 }}>Community Catalyst</h3>
-              <h4> Fullstack App - Js, Node </h4>
-            </div>
-          </div>
 
         </div>
       </div>

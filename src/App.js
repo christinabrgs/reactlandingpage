@@ -7,7 +7,7 @@ import Resume from './components/pages/resume';
 import Contact from './components/pages/contact';
 import Portfolio from './components/pages/portfolio';
 import CaseStudy from './components/pages/caseStudy';
-
+import CaseStudyCoach from './components/pages/caseStudyCoach'
 
 function App() {
   const location = useLocation();
@@ -24,7 +24,9 @@ function App() {
         <Route path='/portfolio' exact element={<Portfolio />}></Route>
         <Route path='/resume' exact element={<Resume />}></Route>
         <Route path='/contact' exact element={<Contact />}></Route>
-        <Route path='/caseStudy' exact element={<CaseStudy />}></Route>
+        <Route path='/casestudy/explore' exact element={<CaseStudy />}></Route>
+        <Route path='/casestudy/coach' exact element={<CaseStudyCoach />}></Route>
+
       </Routes>
     </>
   );

@@ -33,7 +33,7 @@ function Footer() {
                         </Link>
                     </div>
                     <div className='social-icons'>
-                    <small className='website-rights'>All rights reserved @2024 Cbtalia. </small>
+                    <small className='website-rights'>All rights reserved @2025 Cbtalia. </small>
                         
                     </div>
                 </div>

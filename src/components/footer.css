@@ -96,7 +96,7 @@
 /* Social Icons */
 .social-icon-link {
   color: white;
-  font-size: 24px;
+  font-size: 1.5rem;
 }
 
 .social-media {
@@ -115,7 +115,7 @@
 
 .social-icons {
   display: flex;
-  justify-content: space-between;
+  justify-content:space-around;
   align-items: center;
   width: 240px;
 }
@@ -135,6 +135,7 @@
 .website-rights {
   color: white;
   margin-bottom: 16px;
+  font-size: .7rem;
 }
 
 @media screen and (max-width: 820px) {

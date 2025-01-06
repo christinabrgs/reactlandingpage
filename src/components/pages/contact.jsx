@@ -37,11 +37,11 @@ function Contact () {
     <form className='contact-form' ref={form} onSubmit={sendEmail} style={{display: 'flex', flexDirection: 'column'}}>
       <h1 className='contact-header' style={{color: '#fee7d5', paddingBottom: 60, textAlign: 'center'}}> Leave Me a Message 👇</h1>
       <label>Name</label>
-      <input className='contact-input' style={{padding: 20}} type="text" name="user_name" />
+      <input className='contact-input' style={{padding: 18}} type="text" name="user_name" />
       <label>Email</label>
-      <input className='contact-input' style={{padding: 20}} type="email" name="user_email" />
+      <input className='contact-input' style={{padding: 18}} type="email" name="user_email" />
       <label>Message</label>
-      <textarea className='contact-input' name="message" style={{padding: 20, width: '100%', height: '80px', maxWidth: '100%'}} />
+      <textarea className='contact-input' name="message" style={{padding: 15, width: '100%', height: '80px', maxWidth: '100%'}} />
       <input className='contact-input-button' type="submit" value={buttonText} />
     </form>
     </div>
