@@ -102,8 +102,7 @@ li {
   background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
-  font-size: 35px;
-  height: 100vh;
+  height: 105vh;
 }
 
  .contact-input {
@@ -113,6 +112,7 @@ li {
   color: #000;
   border-radius: 10px;
   margin: 5px 0 30px 0;
+  padding: 18px;
 }
 
 .contact-input-button {
@@ -133,8 +133,8 @@ li {
   padding: 0%;
   border-radius: 0px;
   width: 35%;
-  font-size: 18px;
-  margin-top: 120px;
+  font-size: 1rem;
+  margin-top: 100px;
 }
 
 @keyframes scroll-in {
@@ -188,6 +188,10 @@ li {
   .contact-form {
     width: 60%;
   }
+
+  .services {
+    font-size: 5rem;
+  }
 }
 
 /* @media screen and (max-width: 1250px) {
@@ -205,18 +209,18 @@ li {
 @media screen and (max-width: 1050px) {
   
   .contact-header {
-    font-size: 35px;
+    font-size: 1.5rem;
   }
 
   .contact-form {
     width: 75%;
     margin-top: 100px;
-    font-size: 20px;
+    font-size: 1rem;
   }
 
   .contact-input {
     height: 30px;
-    margin: 5px 0 30px 0;
+    margin: 05px 0 30px 0;
   }
 
   .case-study-orientation {
@@ -231,18 +235,43 @@ li {
     width: 70%;
   }
 
+  .services {
+    font-size: 3.5rem;
+  }
+
 }
 
 @media screen and (max-width: 750px) {
   .contact-header {
-    font-size: 1.8rem;
+    font-size: 1.3rem;
+  }
+
+  .contact-form {
+    margin-top: 50px;
+  }
+
+  .sign-up {
+    height: 105vh;
+  }
+
+  .contact-form label {
+    font-size: 1rem;
   }
 
   .contact-input {
     height: 20px;
+    font-size: .8rem;
+  }
+
+  .contact-input-button {
+    height: 40px;
   }
 
   .case-study-orientation img {
     width: 80%;
+  }
+
+  .services {
+    font-size: 3rem;
   }
 }

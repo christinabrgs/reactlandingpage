@@ -136,9 +136,12 @@ p {
   padding-left: 50px;
 }
 
+.two_content h1 {
+font-size: 2.5rem;
+}
 
 .hero_two h2 {
-    font-size: 32px;;
+    font-size: 32px;
 }
 
 
@@ -187,7 +190,6 @@ p {
   }
   .hero-heading .heading,
   .resume,
-  .services,
   .sign-up {
     font-size: 4.2rem;
   }
@@ -221,6 +223,12 @@ p {
   .hero_two h2 {
     font-size: 1.8rem;
   }
+
+  .two_content h1 {
+    font-size: 2rem;
+    padding: 0;
+    }
+
 }
 
 
@@ -250,6 +258,11 @@ p {
     margin: auto;
   }
   
+  .two_content h1 {
+    font-size: 2rem;
+    padding: 0;
+    }
+    
 }
 
 
@@ -280,6 +293,11 @@ p {
     width: 100%; 
     margin: auto;
   }
+
+  .two_content h1 {
+    font-size: 1.2rem;
+    padding: 0;
+    }
 
 }
 
