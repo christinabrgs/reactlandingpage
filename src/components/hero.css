@@ -153,8 +153,8 @@ font-size: 2.5rem;
 
 @media screen and (min-device-width: 1205px) and (max-width: 1560px) {
   .hero_img {
-    height: 80%;
-    width: 80%;
+    height: 70%;
+    width: 70%;
     margin: auto;
   }
 
@@ -163,7 +163,7 @@ font-size: 2.5rem;
   }
 
   .hero-heading {
-    width: 80%;
+    width: 76%;
   }
 }
 
@@ -234,8 +234,8 @@ font-size: 2.5rem;
 
 
 @media screen and (min-device-width: 634px) and (max-width: 768px) {
-  .hero-heading h1 {
-    font-size: 3rem;
+  .hero-heading h2 {
+    font-size: 1.5rem;
   }
 
   .hero-container {
@@ -271,11 +271,10 @@ font-size: 2.5rem;
 
   .hero-container {
     height: 100%;
-    padding-bottom: 20px;
   }
 
-  .hero-heading h1 {
-    font-size: 1.8rem;
+  .hero-heading h2 {
+    font-size: 1.3rem;
   }
 
   .hero-heading {
@@ -291,12 +290,15 @@ font-size: 2.5rem;
   .two_content {
     padding-left: 0;
     width: 100%; 
-    margin: auto;
+    margin: 0 auto;
   }
 
   .two_content h1 {
-    font-size: 1.2rem;
-    padding: 0;
+    font-size: 1.7rem;
+    }
+
+    .hero_one {
+      padding: 0;
     }
 
 }

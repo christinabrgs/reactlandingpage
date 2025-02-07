@@ -35,7 +35,7 @@ function Contact () {
   return (
     <div className='sign-up'>
     <form className='contact-form' ref={form} onSubmit={sendEmail} style={{display: 'flex', flexDirection: 'column'}}>
-      <h1 className='contact-header' style={{color: '#fee7d5', paddingBottom: 60, textAlign: 'center'}}> Leave Me a Message 👇</h1>
+      <h1 className='contact-header' style={{color: '#fee7d5', paddingBottom: 60, textAlign: 'center'}}> Let's Chat</h1>
       <label>Name</label>
       <input className='contact-input' type="text" name="user_name" />
       <label>Email</label>
