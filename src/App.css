@@ -81,7 +81,7 @@ h4 {
 }
 
 h1 {
-  font-size: 48px;
+  font-size: 3rem;
   font-weight: 400;
 }
 
@@ -194,16 +194,21 @@ li {
   }
 }
 
-/* @media screen and (max-width: 1250px) {
+@media screen and (max-width: 1250px) {
 
-  .case-study-orientation {
+  h1 {
+    font-size: 2.5rem;
+
+  }
+
+  /* .case-study-orientation {
     flex-direction: column;
   }
 
   .case-study-orientation img {
     width: 60%;
-  }
-} */
+  } */
+}
 
 
 @media screen and (max-width: 1050px) {
