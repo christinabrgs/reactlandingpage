@@ -28,8 +28,8 @@ function CaseStudies () {
       };
     
       const slides = [
-        { id: 1, src: Explore, href: '/casestudy/explore' },
-        { id: 2, src: Coached, href: '/casestudy/coach' },
+        { id: 1, src: Explore, href: '/explore' },
+        { id: 2, src: Coached, href: '/coach' },
         // { id: 3, src: CaseStudy },
       ];
     

@@ -24,8 +24,8 @@ function App() {
         <Route path='/portfolio' exact element={<Portfolio />}></Route>
         <Route path='/resume' exact element={<Resume />}></Route>
         <Route path='/contact' exact element={<Contact />}></Route>
-        <Route path='/casestudy/explore' exact element={<CaseStudy />}></Route>
-        <Route path='/casestudy/coach' exact element={<CaseStudyCoach />}></Route>
+        <Route path='/explore' exact element={<CaseStudy />}></Route>
+        <Route path='/coach' exact element={<CaseStudyCoach />}></Route>
 
       </Routes>
     </>
