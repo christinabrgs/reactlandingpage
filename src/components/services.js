@@ -18,7 +18,7 @@ function Cards() {
                         <CardItem
                             src={Pen}
                             text='UI DESIGN'
-                            label='Adventure'
+                            label='design'
                             // path='' 
                             info='Clean designs, tailored to the user, backed by research to understand your key audience'
                         />
@@ -28,7 +28,7 @@ function Cards() {
                             style={{ backgroundColor: '#99A8C1' }}
                             src={Code}
                             text='DEVELOPMENT'
-                            label='Luxery'
+                            label='development'
                             // path=''
                             info='Full-stack developer who has experience creating both web and mobile applications'
                         />
@@ -37,7 +37,7 @@ function Cards() {
                         <CardItem
                             src={Logo}
                             text='BRANDING'
-                            label='Adventure'
+                            label='branding'
                             // path='' 
                             info='Your brand is the first thing people see. I ensure it leaves a lasting impression'
                         />

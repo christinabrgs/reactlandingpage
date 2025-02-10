@@ -14,9 +14,11 @@ export function Projects() {
         <div className="portfolio-column">
 
         <div className="project">
+           <a href="/coach" target="_blank" rel="noreferrer">
             <div className="image-container">
               <img src={CoachedMockup} alt='coached-mockup' />
             </div>
+            </a>
             <div className="text-container">
               <h3 style={{ paddingTop: 25 }}> Coached </h3>
               <h4> ReactNative Mobile App with Google Firebase, UI Design </h4>
@@ -25,7 +27,9 @@ export function Projects() {
 
           <div className="project">
             <div className="image-container">
+            <a href="/explore" target="_blank" rel="noreferrer">
               <img src={Explore} alt='avatar' />
+            </a>
             </div>
             <div className="text-container">
               <h3 style={{ paddingTop: 25 }}> Explore PIT </h3>

@@ -32,7 +32,7 @@ function HeroSection() {
                             <h2 className="drop-in" style={{ color: '#ffaf7a' }}>Hello, I'm Christina</h2>
                         </div>
                         <div className="overflow-hidden">
-                            <h1 className="drop-in-2" style={{ lineHeight: 1.2, color: 'white' }}> I'm a UI Designer and Developer</h1>
+                            <h1 className="drop-in-2" style={{ lineHeight: 1.1, color: 'white' }}> I'm a UI Designer and Developer</h1>
                         </div>
                         <div style={{marginTop: 15}} className="overflow-hidden">
                             <div className="hero-btns drop-in-3">

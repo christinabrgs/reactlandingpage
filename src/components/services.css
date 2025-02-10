@@ -322,6 +322,10 @@
   
   @media screen and (max-width: 600px) {
 
+    .cards__item__desc {
+      padding: 0;
+    }
+
     .cards__item__description {
       padding: 40px 20px;
     }
