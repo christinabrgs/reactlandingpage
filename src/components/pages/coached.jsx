@@ -7,16 +7,16 @@ import Coachtwo from '../../images/coachedcstwo.svg'
 
 
 
-function coachedStudy() {
+function Coached () {
  return (
    <>
      <div className="resume">
        <h1 className="services">CASE STUDIES</h1>
      </div>
      <div className="projects_headline" style={{display: 'flex', flexDirection: 'column', padding: 0}}>
-       <h1> EXPLORE PIT </h1>
+       <h1> Coached </h1>
        <hr/>
-       <h2> Designed. Branded. Developed </h2>
+       <h2> Mobile App Development. </h2>
       </div>
      <div className="case-study-orientation case-two"  style={{margin: 'auto', width: '100%', display: 'flex', justifyContent: 'center', marginTop: 100, marginBottom: 100}}>
      <img style={{height: '100%', margin: 'auto'}} src={Coachone} alt='Case Study' />
@@ -28,4 +28,4 @@ function coachedStudy() {
 }
 
 
-export default coachedStudy;
+export default Coached;

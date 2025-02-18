@@ -29,7 +29,7 @@ function CaseStudies () {
     
       const slides = [
         { id: 1, src: Explore, href: '/explore' },
-        { id: 2, src: Coached, href: '/coach' },
+        { id: 2, src: Coached, href: '/coached' },
         // { id: 3, src: CaseStudy },
       ];
     
