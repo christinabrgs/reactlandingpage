@@ -8,7 +8,7 @@ import Explorepitthree from '../../images/explorepitthree.svg'
 
 
 
-function caseStudy() {
+function ExploreStudy() {
  return (
    <>
      <div className="resume">
@@ -30,7 +30,7 @@ function caseStudy() {
 }
 
 
-export default caseStudy;
+export default ExploreStudy;
 
 
 

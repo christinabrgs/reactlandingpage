@@ -7,7 +7,7 @@ import Coachtwo from '../../images/coachedcstwo.svg'
 
 
 
-function caseStudy() {
+function coachedStudy() {
  return (
    <>
      <div className="resume">
@@ -28,4 +28,4 @@ function caseStudy() {
 }
 
 
-export default caseStudy;
+export default coachedStudy;
