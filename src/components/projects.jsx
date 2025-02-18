@@ -14,7 +14,7 @@ export function Projects() {
         <div className="portfolio-column">
 
         <div className="project">
-           <a href="/coach" target="_blank" rel="noreferrer">
+           <a href="/coached">
             <div className="image-container">
               <img src={CoachedMockup} alt='coached-mockup' />
             </div>
@@ -27,7 +27,7 @@ export function Projects() {
 
           <div className="project">
             <div className="image-container">
-            <a href="/explore" target="_blank" rel="noreferrer">
+            <a href="/explore">
               <img src={Explore} alt='avatar' />
             </a>
             </div>
