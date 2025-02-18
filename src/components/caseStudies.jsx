@@ -43,7 +43,7 @@ function CaseStudies() {
             <div key={slide.id} style={{ height: '100%', width: '100%' }}>
               <Link
                 to={slide.href}
-                rel="noreferrer"
+                // rel="noreferrer"
               >
                 <img style={{ height: '100%', width: '100%', padding: 2 }} src={slide.src} alt='case-study' />
               </Link>
