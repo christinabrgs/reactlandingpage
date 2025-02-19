@@ -30,7 +30,7 @@ function Cards() {
                             text='DEVELOPMENT'
                             label='development'
                             // path=''
-                            info='Full-stack developer who has experience creating both web and mobile applications'
+                            info='Full-stack developer with experience building both web and mobile applications'
                         />
                     </div>
                     <div className='cards__items'>
@@ -39,7 +39,7 @@ function Cards() {
                             text='BRANDING'
                             label='branding'
                             // path='' 
-                            info='Your brand is the first thing people see. I ensure it leaves a lasting impression'
+                            info='Your visual brand is the first thing people see. I ensure it leaves a lasting impression'
                         />
                     </div>
                 </div>

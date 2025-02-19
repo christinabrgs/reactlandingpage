@@ -19,12 +19,12 @@ function AboutMe() {
             <h1 style={{ color: "#FFB07A" }}>ABOUT ME</h1>
             <p style={{ color: "#3e5780", fontStyle: "italic", fontSize: '1rem' }}>
               {" "}
-              I’m passionate about turning ideas into reality through thoughtful design and development. 
-              With experience in full-stack app development and a keen eye for design, I blend technical skill with a user-focused approach to craft meaningful experiences. 
-              My background in IT and UX provides me with a unique perspective that drives creative and effective solutions.{" "}
+              I'm passionate about transforming ideas into reality through thoughtful design and development. 
+              I combine technical expertise with a user-centered approach to create meaningful experiences. 
+              With a background in IT and UX, I bring a unique perspective that enables me to build creative yet effective solutions.{" "}
               <br /><br />
-              Outside of work, you'll find me savoring a warm cup of coffee, breaking personal records at the gym (deadlift PR 285, bench PR 145), or exploring my artistic side. 
-              I'm also passionate about staying ahead of the curve—learning new technologies and building personal apps to sharpen my skills and push my limits.          
+              Outside of work, you’ll find me savoring a good cup of coffee, pushing my limits in the gym (deadlift PR: 285, bench PR: 145), 
+              or exploring my artistic side. I’m always eager to learn—staying ahead of the curve by experimenting with new technologies and building personal projects to sharpen my skills.          
               </p>
           </div>
         </div>
