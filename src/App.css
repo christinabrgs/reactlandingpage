@@ -134,7 +134,7 @@ li {
   border-radius: 0px;
   width: 35%;
   font-size: 1rem;
-  margin-top: 100px;
+  margin-top: 50px;
 }
 
 @keyframes scroll-in {
@@ -164,8 +164,6 @@ li {
 .contact-header {
   font-size: 2.4rem;
 }
-
-
 
 
 .case-study-orientation {
@@ -219,7 +217,7 @@ li {
 
   .contact-form {
     width: 75%;
-    margin-top: 100px;
+    margin-top: 50px;
     font-size: 1rem;
   }
 
@@ -252,7 +250,7 @@ li {
   }
 
   .contact-form {
-    margin-top: 50px;
+    margin-top: 10px;
   }
 
   .sign-up {
