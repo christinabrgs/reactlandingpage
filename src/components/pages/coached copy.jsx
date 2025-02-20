@@ -1,9 +1,8 @@
 import React from "react";
 import "../../App.css";
 import Footer from "../footer";
-import Coachone from '../../images/COACH 1.svg'
-import Coachtwo from '../../images/COACH 2.svg'
-import Coachthree from '../../images/COACH 3.svg'
+import Coachone from '../../images/coachedcs.svg'
+import Coachtwo from '../../images/coachedcstwo.svg'
 
 
 
@@ -17,16 +16,14 @@ function Coached() {
       <div className="projects_headline" style={{ display: 'flex', flexDirection: 'column', padding: 0 }}>
         <h1> Coached </h1>
         <hr />
-        <h2> Mobile App Development. 
-          <a href="https://www.figma.com/design/VsNK1IFg2EU7932WO1PEzM/Coached-Screen-Shots-%2F-Redesign?node-id=0-1&t=0EyiRs0N7T2rtuZb-1">
-            <i> Designs.</i>
-          </a>
+        <h2>
+            Mobile App Development.
+        
         </h2>
       </div>
-      <div className="case-study-orientation" style={{ margin: 'auto', width: '100%', display: 'flex', justifyContent: 'center', marginTop: 100, marginBottom: 100 }}>
+      <div className="case-study-orientation case-two" style={{ margin: 'auto', width: '100%', display: 'flex', justifyContent: 'center', marginTop: 100, marginBottom: 100 }}>
         <img style={{ height: '100%', margin: 'auto' }} src={Coachone} alt='Case Study' />
         <img style={{ height: '100%', margin: 'auto', borderStyle: 'none' }} src={Coachtwo} alt='Case Study' />
-        <img style={{ height: '100%', margin: 'auto' }} src={Coachthree} alt='Case Study' />
       </div>
       <Footer />
     </>
