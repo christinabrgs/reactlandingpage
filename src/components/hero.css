@@ -302,9 +302,10 @@ p {
 
   .hero-container {
     margin-top: 80px;
-    padding-top: 1.5rem;
   }
-
+  .hero_two {
+    padding: 1rem;
+  }
   .hero-heading {
     gap: .5rem;
   }
