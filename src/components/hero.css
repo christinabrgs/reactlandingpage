@@ -29,7 +29,7 @@ html {
 
   width: 100%;
   display: flex;
-  align-items: center;
+  align-items: start;
   justify-content: center;
   padding: 2rem 1rem;
   position: relative;
@@ -200,12 +200,12 @@ p {
 
 @media screen and (max-width: 1205px) {
   .hero-container {
-    margin-top: 80px;
+    margin-top: 120px;
     background-color: #3e5780;
     background-image: none;
     min-height: 100vh;
     min-height: 100dvh;
-    padding: 1rem;
+    padding: 1.5rem;
   }
 
   .resume-link {
@@ -298,10 +298,10 @@ p {
   }
 }
 
-@media screen and (max-width: 1205px) {
+@media screen and (max-width: 600px) {
 
   .hero-container {
-    margin-top: 80px;
+    margin-top: 120px;
   }
   .hero_two {
     padding: 1rem;
