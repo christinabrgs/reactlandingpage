@@ -18,17 +18,15 @@ function App() {
 
   return (
     <>
-      <Router>
-        <Navbar />
-        <Routes>
-          <Route path='/' element={<Home />} />
-          <Route path='/portfolio' element={<Portfolio />} />
-          <Route path='/resume' element={<Resume />} />
-          <Route path='/contact' element={<Contact />} />
-          <Route path='/explore' element={<Explore />} />
-          <Route path='/coached' element={<Coached />} />
-        </Routes>
-      </Router>
+      <Navbar />
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='/portfolio' element={<Portfolio />} />
+        <Route path='/resume' element={<Resume />} />
+        <Route path='/contact' element={<Contact />} />
+        <Route path='/explore' element={<Explore />} />
+        <Route path='/coached' element={<Coached />} />
+      </Routes>
 
     </>
   );
@@ -36,7 +34,7 @@ function App() {
 
 export default function WrappedApp() {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <App />
     </Router>
   );
