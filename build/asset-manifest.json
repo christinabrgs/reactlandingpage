@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.e5ecb657.css",
+    "main.css": "/static/css/main.556e2dc7.css",
     "main.js": "/static/js/main.24676a1a.js",
     "static/media/workoutapp.png": "/static/media/workoutapp.ffd03ff34cce0a523edd.png",
     "static/media/coached.svg": "/static/media/coached.85a38f610e7178bde9a0ace2a8b20039.svg",
@@ -27,11 +27,11 @@
     "index.html": "/index.html",
     "static/media/development.svg": "/static/media/development.c467b7316c778d5382a3acac0269f58d.svg",
     "static/media/design.svg": "/static/media/design.364d93125c28f75d372a73c4c86a8cbb.svg",
-    "main.e5ecb657.css.map": "/static/css/main.e5ecb657.css.map",
+    "main.556e2dc7.css.map": "/static/css/main.556e2dc7.css.map",
     "main.24676a1a.js.map": "/static/js/main.24676a1a.js.map"
   },
   "entrypoints": [
-    "static/css/main.e5ecb657.css",
+    "static/css/main.556e2dc7.css",
     "static/js/main.24676a1a.js"
   ]
 }
