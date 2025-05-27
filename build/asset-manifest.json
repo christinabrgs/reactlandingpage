@@ -1,16 +1,37 @@
 {
   "files": {
-    "main.css": "/static/css/main.c18cf69d.css",
-    "main.js": "/static/js/main.7d8c91e7.js",
-    "static/media/img-2.jpg": "/static/media/img-2.bb238fc1bea8ae2474d2.jpg",
-    "static/media/img-1.jpg": "/static/media/img-1.53f4843759ebec256cb9.jpg",
-    "static/media/img-8.jpg": "/static/media/img-8.fabdf94dc5be2d3dc707.jpg",
+    "main.css": "/static/css/main.e5ecb657.css",
+    "main.js": "/static/js/main.24676a1a.js",
+    "static/media/workoutapp.png": "/static/media/workoutapp.ffd03ff34cce0a523edd.png",
+    "static/media/coached.svg": "/static/media/coached.85a38f610e7178bde9a0ace2a8b20039.svg",
+    "static/media/explorepit.svg": "/static/media/explorepit.7b96e07aa5e1b261debf87209981b012.svg",
+    "static/media/explorepittwo.svg": "/static/media/explorepittwo.fb61df5deb8353590d9ff49041d4451b.svg",
+    "static/media/COACH 1.svg": "/static/media/COACH 1.eff9e77883d81a2f16e28ab2b6bc6a79.svg",
+    "static/media/COACH 2.svg": "/static/media/COACH 2.9ac7f5875cd2db49fb3a4d752c8eb935.svg",
+    "static/media/explore.svg": "/static/media/explore.2f49c8b242f64f53d574743b7245a00e.svg",
+    "static/media/explorepitthree.svg": "/static/media/explorepitthree.57f1fc2db8d3127ce58041b6f599355b.svg",
+    "static/media/collage.jpg": "/static/media/collage.51374d2eabbf927432f6.jpg",
+    "static/media/pitposter.png": "/static/media/pitposter.29d4e6a05c17b1fece6a.png",
+    "static/media/grounded.png": "/static/media/grounded.44a16de1180e61526df1.png",
+    "static/media/community.png": "/static/media/community.7ce6c30df746f4111abb.png",
+    "static/media/COACH 3.svg": "/static/media/COACH 3.56b56b4e750fbcf1f347ed0af232b202.svg",
+    "static/media/VNT.png": "/static/media/VNT.02326d7007eb095c6b14.png",
+    "static/media/Vector.jpg": "/static/media/Vector.17d2fb40bcfaf9d87e9c.jpg",
+    "static/media/coached.jpg": "/static/media/coached.0adf61ace84ca444ee5d.jpg",
+    "static/media/measbunny.jpg": "/static/media/measbunny.5ce72d00c683dabf1b48.jpg",
+    "static/media/branding.svg": "/static/media/branding.c4c85d4592f32e404bebb6e0c4bcae49.svg",
+    "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
-    "main.c18cf69d.css.map": "/static/css/main.c18cf69d.css.map",
-    "main.7d8c91e7.js.map": "/static/js/main.7d8c91e7.js.map"
+    "static/media/development.svg": "/static/media/development.c467b7316c778d5382a3acac0269f58d.svg",
+    "static/media/design.svg": "/static/media/design.364d93125c28f75d372a73c4c86a8cbb.svg",
+    "main.e5ecb657.css.map": "/static/css/main.e5ecb657.css.map",
+    "main.24676a1a.js.map": "/static/js/main.24676a1a.js.map"
   },
   "entrypoints": [
-    "static/css/main.c18cf69d.css",
-    "static/js/main.7d8c91e7.js"
+    "static/css/main.e5ecb657.css",
+    "static/js/main.24676a1a.js"
   ]
 }
