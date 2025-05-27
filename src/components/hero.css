@@ -309,4 +309,8 @@ p {
   .hero-heading {
     gap: .5rem;
   }
+
+  .two_content h1 {
+    margin: 0;
+  }
 }
