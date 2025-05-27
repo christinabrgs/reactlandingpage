@@ -18,16 +18,18 @@ function App() {
 
   return (
     <>
-      <Navbar />
-      <Routes>
-        <Route path='/' exact element={<Home />}></Route>
-        <Route path='/portfolio' exact element={<Portfolio />}></Route>
-        <Route path='/resume' exact element={<Resume />}></Route>
-        <Route path='/contact' exact element={<Contact />}></Route>
-        <Route path='/explore' exact element={<Explore />}></Route>
-        <Route path='/coached' exact element={<Coached />}></Route>
+      <Router basename={process.env.PUBLIC_URL}>
+        <Navbar />
+        <Routes>
+          <Route path='/' exact element={<Home />}></Route>
+          <Route path='/portfolio' exact element={<Portfolio />}></Route>
+          <Route path='/resume' exact element={<Resume />}></Route>
+          <Route path='/contact' exact element={<Contact />}></Route>
+          <Route path='/explore' exact element={<Explore />}></Route>
+          <Route path='/coached' exact element={<Coached />}></Route>
+        </Routes>
+      </Router>
 
-      </Routes>
     </>
   );
 }
