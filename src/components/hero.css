@@ -302,7 +302,7 @@ p {
 
   .hero-container {
     margin-top: 80px;
-
+    padding-top: 1rem;
   }
 
   .hero-heading {
