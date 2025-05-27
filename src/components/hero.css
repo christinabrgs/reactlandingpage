@@ -29,7 +29,7 @@ html {
 
   width: 100%;
   display: flex;
-  align-items: start;
+  align-items: center;
   justify-content: center;
   padding: 2rem 1rem;
   position: relative;
@@ -302,6 +302,7 @@ p {
 
   .hero-container {
     margin-top: 120px;
+    align-items: start;
   }
   .hero_two {
     padding: 1rem;
