@@ -43,12 +43,12 @@ function HeroSection() {
                                     Contact
                                 </Button>
                                 <a
-                                    href="/SOFTWAREDEVELOPMENT.pdf"  // Direct path to the file in the public folder
-                                    download="Christina-Resume.pdf"  // The desired name when the file is downloaded
+                                    href="/SOFTWAREDEVELOPMENT.pdf"  
+                                    download="Christina-Resume.pdf" 
                                     className="resume-link btn btn--outline btn--large"
                                     target="_blank"
                                     rel="noreferrer"
-                                    style={{ marginLeft: '10px', textDecoration: 'none' }}  // Optional styling for spacing
+                                    style={{ marginLeft: '10px', textDecoration: 'none' }}
                                 >
                                     Resume
                                 </a>
