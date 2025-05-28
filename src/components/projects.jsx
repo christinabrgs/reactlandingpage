@@ -6,6 +6,7 @@ import Grounded from "../images/grounded.png";
 import Community from "../images/community.png";
 import WorkoutAi from "../images/workoutapp.png";
 import CoachedMockup from "../images/coached.jpg" 
+import { Link } from "react-router-dom";
 
 export function Projects() {
   return (
@@ -14,11 +15,11 @@ export function Projects() {
         <div className="portfolio-column">
 
         <div className="project">
-           <a href="/coached">
+           <Link to="/coached">
             <div className="image-container">
               <img src={CoachedMockup} alt='coached-mockup' />
             </div>
-            </a>
+            </Link>
             <div className="text-container">
               <h3 style={{ paddingTop: 25 }}> Coached </h3>
               <h4> ReactNative Mobile App with Google Firebase, UI Design </h4>
@@ -27,9 +28,9 @@ export function Projects() {
 
           <div className="project">
             <div className="image-container">
-            <a href="/explore">
+            <Link to="/explore">
               <img src={Explore} alt='avatar' />
-            </a>
+            </Link>
             </div>
             <div className="text-container">
               <h3 style={{ paddingTop: 25 }}> Explore PIT </h3>

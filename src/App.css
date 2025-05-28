@@ -94,6 +94,9 @@ color: #041a3f;
 padding: 15px 0;
 line-height: 80px;
 }
+.projects_headline h1 {
+  color: #ffb07a;
+}
 
 .projects_headline  {
   padding-top: 3rem;
