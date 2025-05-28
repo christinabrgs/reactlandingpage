@@ -14,9 +14,9 @@ function Coached() {
       <div className="resume">
         <h1 className="services">CASE STUDIES</h1>
       </div>
-      <div className="projects_headline" style={{ display: 'flex', flexDirection: 'column', padding: 0 }}>
+      <div className="projects_headline" style={{ display: 'flex', flexDirection: 'column' }}>
         <h1> Coached </h1>
-        <hr />
+        <hr style={{  width: '50%', margin: 'auto' }} />
         <h2> Mobile App Development. 
           <a href="https://www.figma.com/design/VsNK1IFg2EU7932WO1PEzM/Coached-Screen-Shots-%2F-Redesign?node-id=0-1&t=0EyiRs0N7T2rtuZb-1">
             <i> Designs.</i>

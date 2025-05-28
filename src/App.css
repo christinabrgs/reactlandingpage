@@ -76,13 +76,35 @@ h1,
 h2,
 h3,
 h4 {
-  padding: 15px 0 15px 0  ;
+  padding: 15px 0;
 
 }
 
 h1 {
   font-size: 3rem;
   font-weight: 400;
+  margin: auto;
+}
+
+.projects_headline h1,
+.cards_headline h1
+{
+text-align: center;
+color: #041a3f;
+padding: 15px 0;
+line-height: 80px;
+}
+
+.projects_headline  {
+  padding-top: 3rem;
+  padding-bottom: 1rem;
+}
+
+
+.projects_headline h2 {
+  width: 50%;
+  margin: auto;
+  text-align: center;
 }
 
 .intro p {
@@ -196,6 +218,7 @@ li {
 
   h1 {
     font-size: 2.5rem;
+    margin: auto;
 
   }
 

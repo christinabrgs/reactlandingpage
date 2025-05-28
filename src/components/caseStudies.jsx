@@ -36,7 +36,7 @@ function CaseStudies() {
 
   return (
     <div className={`fade-in-section ${isVisible ? "is-visible" : ""}`} ref={domRef}>
-      <div className='projects_slider' style={{ height: '100%', paddingBottom: 100 }}>
+      <div className='projects_slider' style={{ height: '100%', paddingTop: '3rem', paddingBottom: '4rem', minHeight: '75vh', alignContent: 'center' }}>
         <div className="projects_headline"> <h1> CASE STUDIES </h1> </div>
         <Slider style={{ width: '70%', margin: 'auto' }} {...settings}>
           {slides.map(slide => (

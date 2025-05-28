@@ -14,9 +14,9 @@ function Explore() {
       <div className="resume">
         <h1 className="services">CASE STUDIES</h1>
       </div>
-      <div className="projects_headline" style={{ display: 'flex', flexDirection: 'column', padding: 0 }}>
+      <div className="projects_headline" style={{ display: 'flex', flexDirection: 'column',}}>
         <h1> EXPLORE PIT </h1>
-        <hr />
+        <hr style={{  width: '50%', margin: 'auto' }} />
         <h2> Designed. Branded. Developed.
           <a href="https://www.figma.com/design/M3m1dGIoIP4hbc30vRzW0m/PIT-Career-Hub?node-id=0-1&t=enkw9fJStnC7Z8tV-1">
             <i> Designs.</i>
