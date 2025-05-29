@@ -3,6 +3,7 @@ import "../components/aboutMe.css";
 import Collage from "../images/collage.jpg";
 import Bunny from "../images/measbunny.jpg";
 import useIntersectionObserver from "../hooks/useIsVisible";
+import { Link } from "react-router-dom";
 
 function AboutMe() {
   const { isVisible, domRef } = useIntersectionObserver();
@@ -24,8 +25,11 @@ function AboutMe() {
               With a background in IT and UX, I bring a unique perspective that enables me to build creative yet effective solutions.{" "}
               <br /><br />
               Outside of work, you’ll find me savoring a good cup of coffee, pushing my limits in the gym (deadlift PR: 285, bench PR: 145), 
-              or exploring my artistic side. I’m always eager to learn—staying ahead of the curve by experimenting with new technologies and building personal projects to sharpen my skills.          
+              or exploring my artistic side. I’m always eager to learn—staying ahead of the curve by experimenting with new technologies and building personal projects.          
+              <br /><br />
+              I organize events for the philly dev community at <Link style={{color: '#f7a51b', textDecoration: 'underline'}} to={'https://phlcode.club'} target="_blank">phlcode.club</Link>
               </p>
+
           </div>
         </div>
         <div className="about-section">

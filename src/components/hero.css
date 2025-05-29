@@ -54,7 +54,7 @@ html {
 /* HERO CONTENT LAYOUT */
 .hero-heading {
   display: flex;
-  width: min(90%, 1200px);
+  width: min(95%, 1200px);
   justify-content: center;
   align-items: center;
   text-align: center;

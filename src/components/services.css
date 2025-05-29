@@ -33,7 +33,6 @@
 
 .cards__wrapper {
   position: relative;
-  margin: 0 0 45px;
   display: flex;
   flex-direction: row;
   width: 100%;
@@ -60,6 +59,7 @@
   margin: 0;
   list-style: none;
   background: #99a8c1; /* ui design and branding box colors */
+  align-content: center;
 }
 
 .cards__item::after {
@@ -113,6 +113,7 @@
   max-width: 100px;
   transition: all 0.3s ease;
   filter: drop-shadow(0 4px 8px rgba(0,0,0,0.1));
+  flex-grow: .5;
 }
 
 .cards__item__img:hover {
@@ -129,10 +130,11 @@
 }
 
 .cards__item__description {
-  padding: 50px 30px;
+  padding: 0 30px;
   flex-grow: 1;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .cards__item__text {
@@ -173,9 +175,13 @@
 }
 
 @media only screen and (max-width: 1205px) {
+  .cards__item__description {
+    padding: 50px 30px;
+  }
   .cards_headline h1 {
     width: 100%;
   }
+
   .cards__item__text {
     font-size: 1.8rem;
   }
@@ -192,6 +198,7 @@
 }
 
 @media only screen and (max-width: 1024px) {
+
   .cards__item {
     margin-bottom: 2rem;
   }
