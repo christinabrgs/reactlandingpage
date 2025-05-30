@@ -4,7 +4,7 @@
   background: #A4B2C9;
   opacity: 1;
   min-height: 90vh;
-  align-items: center;
+  align-content: center;
 }
 
 .cards__container {

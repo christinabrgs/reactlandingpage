@@ -1,98 +1,238 @@
+/* ===========================================
+   PROJECTS SECTION - PROFESSIONAL & RESPONSIVE
+   =========================================== */
 
-.contain {
-    background-color: white;
-    width: 100%;
+   * {
+    box-sizing: border-box;
 }
 
-/* .portfolio-container,
-.portfolio-column,
-.project {
-    border: 1px solid black;
+/* Main container */
+.projects-section {
+    background-color: #ffffff;
+    width: 100%;
+    padding: 4rem 0;
+    position: relative;
+}
+
+.projects-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+/* Header section */
+.projects-header {
+    text-align: center;
+    margin-bottom: 4rem;
+    opacity: 0;
+    animation: fadeInUp 1s ease-out 0.2s forwards;
+}
+
+.projects-title {
+    font-size: clamp(2.5rem, 5vw, 3.5rem);
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+    color: #041b3f;
+    margin: 0 0 1rem 0;
+    font-weight: 300;
+    position: relative;
+}
+/* block line separator */
+/* .projects-subtitle::after {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: linear-gradient(90deg, #ffb07a, #3e5780);
+    margin: 1rem auto;
+    border-radius: 2px;
 } */
 
-.portfolio-container {
-    width: 70%;
-    padding: 50px;
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    background-color: white;
+.projects-subtitle {
+    font-size: clamp(1.1rem, 2vw, 1.3rem);
+    color: #3e5780;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.6;
 }
 
-.portfolio-column {
-    flex: 1;
-    padding: 40px;
-    justify-content: center;
-  }
-
-.project {
-    padding: 20px;
-    margin: 40px 0 40px 0;
-    color: #041b3f;
+/* Grid layout */
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 2.5rem;
+    margin-top: 3rem;
 }
 
-.project:hover {
-    background-color: #ffffff;
-    color: white;
-    -webkit-transition: all 1s ease;
-    transition: all .5s ease;
-    box-shadow: 0px 5px 20px #e2e2e2;
+/* Project cards */
+.project-card {
+    background: #ffffff;
+    overflow: hidden;
+    transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    cursor: pointer;
+    position: relative;
+    opacity: 0;
+    transform: translateY(30px);
+    animation: projectCardEntrance 0.8s ease-out forwards;
+    text-decoration: none;
+    color: inherit;
+    display: block;
 }
 
+.project-card:nth-child(1) { animation-delay: 0.1s; }
+.project-card:nth-child(2) { animation-delay: 0.2s; }
+.project-card:nth-child(3) { animation-delay: 0.3s; }
+.project-card:nth-child(4) { animation-delay: 0.4s; }
+.project-card:nth-child(5) { animation-delay: 0.5s; }
+.project-card:nth-child(6) { animation-delay: 0.6s; }
 
-.text-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+.project-card:hover {
+    transform: translateY(-8px);
+}
+
+/* Image container */
+.project-image-wrapper {
+    position: relative;
     width: 100%;
-    margin: auto;
-    color: #041b3f;
+    height: 250px;
+    overflow: hidden;
 }
 
-.image-container {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-}
-
-img {
+.project-image {
     width: 100%;
     height: 100%;
-  }
+    object-fit: cover;
+    transition: transform 0.4s ease;
+}
 
-  /* .project p, h1, h2, h3, h4 {
-    padding: 10px 0px 0px 0;
-  } */
+.project-card:hover .project-image {
+    transform: scale(1.05);
+}
 
+/* Project info section */
+.project-info {
+    padding: 1.5rem;
+}
 
-  h4 {
+.project-title {
+    font-size: 1.4rem;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+    color: #041b3f;
+    margin: 0 0 0.5rem 0;
+    font-weight: 400;
+    transition: color 0.3s ease;
+}
+
+.project-card:hover .project-title {
+    color: #3e5780;
+}
+
+.project-description {
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.5;
+    margin: 0;
     font-style: italic;
-    padding: 0;
-  }
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
 
-
-
-  @media screen and (max-width: 1300px) {
-    .portfolio-container {
-        flex-direction: column;
-        width: 100%;
+/* Animations */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
     }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
 
-    .projects_headline h1 {
-      width: 70%;
-      text-align: center;
+@keyframes projectCardEntrance {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Focus states for accessibility */
+.project-card:focus {
+    outline: 3px solid #ffb07a;
+    outline-offset: 4px;
+}
+
+/* ===========================================
+   RESPONSIVE BREAKPOINTS
+   =========================================== */
+
+/* Desktop */
+@media screen and (min-width: 1024px) and (max-width: 1399px) {
+    .projects-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2.5rem;
+    }
+}
+
+/* Tablet */
+@media screen and (max-width: 1023px) {
+    .projects-section {
+        padding: 3rem 0;
     }
     
-  }
-
-  @media screen and (max-width: 840px) {
-
-    .portfolio-container{
-      padding: 0px;
-    }
-
-    .portfolio-column{
-      padding: 0px;
+    .projects-container {
+        padding: 0 1.5rem;
     }
     
-  }
+    .projects-header {
+        margin-bottom: 3rem;
+    }
+    
+    .projects-grid {
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 2rem;
+    }
+    
+    .project-image-wrapper {
+        height: 220px;
+    }
+}
+
+/* Mobile */
+@media screen and (max-width: 768px) {
+    .projects-section {
+        padding: 2rem 0;
+    }
+    
+    .projects-container {
+        padding: 0 1rem;
+    }
+    
+    .projects-header {
+        margin-bottom: 2rem;
+    }
+    
+    .projects-grid {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+    
+    .project-image-wrapper {
+        height: 200px;
+    }
+    
+    .project-info {
+        padding: 1.25rem;
+    }
+    
+    .project-title {
+        font-size: 1.25rem;
+    }
+    
+    .project-description {
+        font-size: 0.95rem;
+    }
+}

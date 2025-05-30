@@ -5,110 +5,108 @@ import Vnt from "../images/VNT.png";
 import Grounded from "../images/grounded.png";
 import Community from "../images/community.png";
 import WorkoutAi from "../images/workoutapp.png";
-import CoachedMockup from "../images/coached.jpg" 
+import CoachedMockup from "../images/coached.jpg";
 import { Link } from "react-router-dom";
 
 export function Projects() {
+  const handleProjectClick = (type, link) => {
+    if (type === 'external') {
+      window.open(link, '_blank', 'noopener,noreferrer');
+    } else {
+      // Internal navigation handled by Link component
+      console.log(`Navigate to: ${link}`);
+    }
+  };
+
   return (
-    <div className="contain">
-      <div className="portfolio-container">
-        <div className="portfolio-column">
-
-        <div className="project">
-           <Link to="/coached">
-            <div className="image-container">
-              <img src={CoachedMockup} alt='coached-mockup' />
-            </div>
-            </Link>
-            <div className="text-container">
-              <h3 style={{ paddingTop: 25 }}> Coached </h3>
-              <h4> ReactNative Mobile App with Google Firebase, UI Design </h4>
-            </div>
-          </div>
-
-          <div className="project">
-            <div className="image-container">
-            <Link to="/explore">
-              <img src={Explore} alt='avatar' />
-            </Link>
-            </div>
-            <div className="text-container">
-              <h3 style={{ paddingTop: 25 }}> Explore PIT </h3>
-              <h4> Web Development, Design, Branding </h4>
-            </div>
-          </div>
-
-          <div className="project">
-            <div className="image-container">
-              <a href="https://demo-day-vhdj.onrender.com/" target="_blank" rel="noreferrer">
-                <img src={WorkoutAi} alt="workout ai web app" />
-              </a>
-            </div>
-            <div className="text-container">
-              <h3 style={{ paddingTop: 25 }}> Workout AI App </h3>
-              <h4> Fullstack App - Open Ai, JS, Node, Tailwind CSS </h4>
-            </div>
-          </div>
-          
+    <section className="projects-section">
+      <div className="projects-container">
+        <div className="projects-header">
+          <p className="projects-subtitle">A showcase of my recent work in web development, mobile apps, and design</p>
         </div>
-
-
-
-        <div className="portfolio-column">   
-        <div className="project">
-            <div className="image-container">
-              <a
-                href="https://community-catalyst-z5za.onrender.com/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <img src={Community} alt="community catalyst web app" />
-              </a>
+        
+        <div className="projects-grid">
+          <Link to="/coached" className="project-card">
+            <div className="project-image-wrapper">
+              <img src={CoachedMockup} alt="Coached" className="project-image" />
             </div>
-            <div className="text-container">
-              <h3 style={{ paddingTop: 25 }}>Community Catalyst</h3>
-              <h4> Fullstack App - Js, Node </h4>
+            <div className="project-info">
+              <h3 className="project-title">Coached</h3>
+              <p className="project-description">ReactNative Mobile App with Google Firebase, UI Design</p>
             </div>
-          </div>
+          </Link>
 
-
-
-        <div className="project">
-            <div className="image-container">
-              <a
-                href="https://www.figma.com/design/G389jkPP6MbCHy0YCvUiFG/VNT?node-id=0-1"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <img src={Vnt} alt="vnt app design" />
-              </a>
+          <Link to="/explore" className="project-card">
+            <div className="project-image-wrapper">
+              <img src={Explore} alt="Explore PIT" className="project-image" />
             </div>
-            <div className="text-container">
-              <h3 style={{ paddingTop: 25 }}> VNT </h3>
-              <h4> Mobile App Design </h4>
+            <div className="project-info">
+              <h3 className="project-title">Explore PIT</h3>
+              <p className="project-description">Web Development, Design, Branding</p>
             </div>
-          </div>
+          </Link>
 
-
-          <div className="project">
-            <div className="image-container">
-              <a
-                href="https://www.figma.com/design/b58rE33Gavzzfulf1znnpJ/Yoga-App?node-id=0-1"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <img src={Grounded} alt='grounded' />
-              </a>
+          <a 
+            href="https://demo-day-vhdj.onrender.com/" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="project-card"
+          >
+            <div className="project-image-wrapper">
+              <img src={WorkoutAi} alt="Workout AI App" className="project-image" />
             </div>
-            <div className="text-container">
-              <h3 style={{ paddingTop: 25 }}> Grounded </h3>
-              <h4> Mobile App Design </h4>
+            <div className="project-info">
+              <h3 className="project-title">Workout AI App</h3>
+              <p className="project-description">Fullstack App - Open AI, JS, Node, Tailwind CSS</p>
             </div>
-          </div>
+          </a>
 
+          <a 
+            href="https://community-catalyst-z5za.onrender.com/" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="project-card"
+          >
+            <div className="project-image-wrapper">
+              <img src={Community} alt="Community Catalyst" className="project-image" />
+            </div>
+            <div className="project-info">
+              <h3 className="project-title">Community Catalyst</h3>
+              <p className="project-description">Fullstack App - JS, Node</p>
+            </div>
+          </a>
 
+          <a 
+            href="https://www.figma.com/design/G389jkPP6MbCHy0YCvUiFG/VNT?node-id=0-1" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="project-card"
+          >
+            <div className="project-image-wrapper">
+              <img src={Vnt} alt="VNT" className="project-image" />
+            </div>
+            <div className="project-info">
+              <h3 className="project-title">VNT</h3>
+              <p className="project-description">Mobile App Design</p>
+            </div>
+          </a>
+
+          <a 
+            href="https://www.figma.com/design/b58rE33Gavzzfulf1znnpJ/Yoga-App?node-id=0-1" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="project-card"
+          >
+            <div className="project-image-wrapper">
+              <img src={Grounded} alt="Grounded" className="project-image" />
+            </div>
+            <div className="project-info">
+              <h3 className="project-title">Grounded</h3>
+              <p className="project-description">Mobile App Design</p>
+            </div>
+          </a>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
